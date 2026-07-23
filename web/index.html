@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stardew Valley Save Editor — Free Online Save Editor</title>
+<meta name="description" content="Free online Stardew Valley save editor. Edit money, stamina, health, inventory items and friendships right in your browser. No download, no install. Works with PC, console and mobile saves.">
+<style>
+  :root{
+    --wood-dark:#5a3a22; --wood:#7a5230; --wood-light:#9c6b3e;
+    --parchment:#f4e4c1; --parchment-dark:#e6cf9f;
+    --ink:#3a2410; --green:#5b8c3e; --green-dark:#3f6b2a;
+    --gold:#f2c14e; --gold-dark:#c9962b; --shadow:rgba(58,36,16,.35);
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; font-family:"Trebuchet MS","Segoe UI",system-ui,sans-serif; color:var(--ink);
+    background:
+      radial-gradient(circle at 20% 10%, #8fc36b 0, transparent 40%),
+      radial-gradient(circle at 85% 20%, #6ba7d6 0, transparent 35%),
+      linear-gradient(160deg,#7cb85a 0%,#5b8c3e 55%,#3f6b2a 100%);
+    background-attachment:fixed; min-height:100vh; padding:16px;
+  }
+  .wrap{max-width:780px;margin:0 auto}
+  .panel{
+    background:linear-gradient(180deg,var(--parchment) 0%,var(--parchment-dark) 100%);
+    border:6px solid var(--wood); border-radius:14px;
+    box-shadow:0 0 0 3px var(--wood-dark), 0 10px 28px var(--shadow);
+    padding:22px; margin-bottom:18px;
+  }
+  header.hero{
+    text-align:center; background:linear-gradient(180deg,var(--wood-light),var(--wood));
+    color:var(--parchment); border:6px solid var(--wood-dark); border-radius:14px;
+    padding:24px 18px; margin-bottom:18px; box-shadow:0 10px 28px var(--shadow);
+  }
+  header.hero h1{margin:0 0 6px; font-size:clamp(24px,5vw,38px); letter-spacing:.5px; text-shadow:2px 2px 0 var(--wood-dark)}
+  header.hero p{margin:0; opacity:.92; font-size:15px}
+  .tag{display:inline-block; margin-top:10px; padding:4px 12px; background:var(--green-dark); border-radius:20px; font-size:13px; border:2px solid #2c4a1d}
+  h2{margin:0 0 12px; font-size:20px; border-bottom:3px dashed var(--wood-light); padding-bottom:6px}
+
+  .drop{border:4px dashed var(--wood); border-radius:12px; background:rgba(255,255,255,.35); padding:34px 18px; text-align:center; cursor:pointer; transition:.15s}
+  .drop:hover,.drop.over{background:rgba(91,140,62,.18); border-color:var(--green-dark)}
+  .drop .big{font-size:44px; line-height:1; margin-bottom:8px}
+  .drop small{display:block; margin-top:8px; opacity:.7}
+  input[type=file]{display:none}
+
+  /* tabs */
+  .tabs{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px}
+  .tab{
+    flex:1 1 auto; min-width:120px; text-align:center; cursor:pointer; font-weight:bold; padding:10px 12px;
+    border:3px solid var(--wood); border-radius:10px 10px 0 0; background:rgba(255,255,255,.35); color:var(--wood-dark);
+  }
+  .tab.active{background:var(--green); color:#fff; border-color:var(--green-dark)}
+  .tabpane{display:none}
+  .tabpane.active{display:block}
+
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:14px}
+  @media(max-width:520px){.grid{grid-template-columns:1fr}}
+  .field label{display:block; font-weight:bold; margin-bottom:5px; font-size:14px}
+  .field input,.field select{width:100%; padding:10px 12px; font-size:16px; border:3px solid var(--wood); border-radius:8px; background:#fff; color:var(--ink); font-family:inherit}
+  .field input:focus,.field select:focus{outline:none; border-color:var(--green-dark); box-shadow:0 0 0 3px rgba(91,140,62,.25)}
+  .field .hint{font-size:12px; opacity:.65; margin-top:3px}
+  .maxbtn{margin-top:6px; font-size:12px; background:var(--gold); border:2px solid var(--gold-dark); padding:3px 9px; border-radius:6px; cursor:pointer; font-weight:bold; color:var(--ink)}
+  .maxbtn:hover{background:var(--gold-dark)}
+
+  .btn{display:inline-block; border:none; cursor:pointer; font-family:inherit; font-weight:bold; padding:14px 26px; font-size:17px; border-radius:10px; color:#fff; background:linear-gradient(180deg,var(--green) 0%,var(--green-dark) 100%); border-bottom:4px solid #2c4a1d; box-shadow:0 4px 10px var(--shadow)}
+  .btn:hover{filter:brightness(1.06)}
+  .btn:active{transform:translateY(2px); border-bottom-width:2px}
+  .btn[disabled]{opacity:.5; cursor:not-allowed}
+  .btn.small{padding:8px 14px; font-size:14px}
+  .btn.ghost{background:linear-gradient(180deg,var(--wood-light),var(--wood)); border-bottom-color:var(--wood-dark)}
+  .btnrow{text-align:center; margin-top:18px}
+  .hidden{display:none}
+  .filechip{display:inline-flex; align-items:center; gap:8px; background:var(--green-dark); color:#fff; padding:6px 12px; border-radius:20px; font-size:13px; margin-bottom:14px}
+  .filechip button{background:none; border:none; color:#fff; cursor:pointer; font-size:15px}
+  .adslot{border:3px dotted var(--wood-light); border-radius:10px; background:rgba(255,255,255,.25); min-height:90px; display:flex; align-items:center; justify-content:center; color:var(--wood); font-size:13px; text-align:center; margin:0 auto}
+
+  /* inventory */
+  .additem{display:flex; gap:10px; flex-wrap:wrap; align-items:flex-end; background:rgba(255,255,255,.35); border:3px solid var(--wood); border-radius:10px; padding:12px; margin-bottom:14px}
+  .additem .field{flex:1 1 160px}
+  .additem .field.small{flex:0 0 90px}
+  .slotlist{display:flex; flex-direction:column; gap:8px; max-height:420px; overflow-y:auto; padding-right:4px}
+  .slot{display:flex; align-items:center; gap:10px; background:rgba(255,255,255,.45); border:2px solid var(--wood-light); border-radius:8px; padding:8px 10px}
+  .slot .num{flex:0 0 34px; font-weight:bold; text-align:center; opacity:.6}
+  .slot .nm{flex:1 1 auto; font-weight:bold}
+  .slot.empty .nm{opacity:.45; font-weight:normal; font-style:italic}
+  .slot input,.slot select{padding:5px 7px; border:2px solid var(--wood); border-radius:6px; font-family:inherit; font-size:13px}
+  .slot .st{width:64px}
+  .slot .xtag{font-size:11px; opacity:.6; margin-left:4px}
+  .slot .x{background:#a23b2b; color:#fff; border:none; border-radius:6px; cursor:pointer; padding:5px 9px; font-weight:bold}
+
+  /* friendships */
+  .npc{display:flex; align-items:center; gap:10px; background:rgba(255,255,255,.45); border:2px solid var(--wood-light); border-radius:8px; padding:8px 10px}
+  .npc .nm{flex:1 1 auto; font-weight:bold}
+  .npc .hearts{font-size:13px; opacity:.75; min-width:74px; text-align:right}
+  .npc input{width:88px; padding:5px 7px; border:2px solid var(--wood); border-radius:6px; font-family:inherit; font-size:13px}
+  .npc .spouse{font-size:11px; background:var(--gold); border-radius:5px; padding:1px 6px; border:1px solid var(--gold-dark)}
+
+  details{border:3px solid var(--wood); border-radius:10px; background:rgba(255,255,255,.4); margin-bottom:12px; overflow:hidden}
+  details summary{cursor:pointer; padding:12px 14px; font-weight:bold; background:rgba(122,82,48,.12)}
+  details .body{padding:0 16px 14px}
+  code,pre{background:#2e2213; color:#f4e4c1; border-radius:6px}
+  code{padding:2px 6px; font-size:13px}
+  pre{padding:12px; overflow-x:auto; font-size:13px; line-height:1.5}
+  a{color:var(--green-dark); font-weight:bold}
+  .warn{background:#fff6da; border:3px solid var(--gold-dark); border-radius:10px; padding:12px 14px; font-size:14px}
+  footer{text-align:center; color:var(--parchment); font-size:13px; padding:10px 0 30px; text-shadow:1px 1px 0 var(--wood-dark)}
+  .status{margin-top:12px; font-weight:bold; min-height:20px}
+  .status.ok{color:var(--green-dark)} .status.err{color:#a23b2b}
+  .toolbar{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <h1>🌱 Stardew Valley Save Editor</h1>
+    <p>Edit gold, stamina, inventory items &amp; friendships — right in your browser.</p>
+    <span class="tag">No download · No install · Your save never leaves your device</span>
+  </header>
+
+  <!-- AD SLOT (top) -->
+  <div class="panel"><div class="adslot">ad space (top banner)</div></div>
+
+  <!-- UPLOAD -->
+  <section class="panel" id="uploadPanel">
+    <h2>1 · Load your save</h2>
+    <div id="drop" class="drop">
+      <div class="big">📂</div>
+      <strong>Drop your save file here</strong> <span>or click to browse</span>
+      <small>It's the file with <em>no extension</em> named after your farm. Everything happens on your device — nothing is uploaded to a server.</small>
+    </div>
+    <input type="file" id="fileInput">
+    <div class="status" id="loadStatus"></div>
+  </section>
+
+  <!-- EDITOR -->
+  <section class="panel hidden" id="editorPanel">
+    <div class="filechip" id="fileChip"></div>
+
+    <div class="tabs">
+      <div class="tab active" data-tab="stats">💰 Stats</div>
+      <div class="tab" data-tab="inv">🎒 Inventory</div>
+      <div class="tab" data-tab="npc">❤️ Friendships</div>
+    </div>
+
+    <div class="tabpane active" id="pane-stats">
+      <div class="grid" id="fields"></div>
+    </div>
+
+    <div class="tabpane" id="pane-inv">
+      <div class="additem" id="addItemBox">
+        <div class="field">
+          <label>Add item</label>
+          <input id="itemSearch" list="itemlist" placeholder="Search 800+ items…" autocomplete="off">
+          <datalist id="itemlist"></datalist>
+        </div>
+        <div class="field small"><label>Qty</label><input id="addStack" type="number" min="1" max="999" value="1"></div>
+        <div class="field small"><label>Quality</label>
+          <select id="addQuality">
+            <option value="0">Normal</option><option value="1">Silver</option><option value="2">Gold</option><option value="4">Iridium</option>
+          </select>
+        </div>
+        <button class="btn small" id="addBtn">➕ Add</button>
+      </div>
+      <div class="slotlist" id="slots"></div>
+    </div>
+
+    <div class="tabpane" id="pane-npc">
+      <div class="toolbar"><button class="btn small ghost" id="maxHeartsBtn">❤️ Max all hearts</button></div>
+      <div id="npcs"></div>
+    </div>
+
+    <div class="btnrow">
+      <button class="btn" id="downloadBtn">💾 Save &amp; Download</button>
+      <div class="status" id="saveStatus"></div>
+    </div>
+  </section>
+
+  <!-- AD SLOT (mid) -->
+  <div class="panel"><div class="adslot">ad space (in-content)</div></div>
+
+  <!-- INSTRUCTIONS -->
+  <section class="panel">
+    <h2>Getting your save file</h2>
+    <details open>
+      <summary>💻 PC / Mac / Linux (easiest)</summary>
+      <div class="body">
+        <p>Your save is just a file in a folder. Grab it, edit it here, drop it back.</p>
+        <ul>
+          <li><strong>Windows:</strong> <code>%AppData%\StardewValley\Saves</code></li>
+          <li><strong>Mac:</strong> <code>~/.config/StardewValley/Saves</code></li>
+          <li><strong>Linux:</strong> <code>~/.config/StardewValley/Saves</code></li>
+        </ul>
+        <p>Open your farm's folder — the save is the file named like your farm (no extension). Upload it above, edit, download, copy it back (overwrite). <strong>Back up the original first.</strong></p>
+      </div>
+    </details>
+    <details>
+      <summary>📱 iPhone / iPad</summary>
+      <div class="body"><p>iOS keeps the save locked inside the app. A one-click helper to pull it out and push it back is coming soon.</p></div>
+    </details>
+    <div class="warn">⚠️ <strong>Always back up your original save</strong> before overwriting. This editor changes only the values you edit and leaves the rest of the file byte-for-byte identical — but a backup means a typo can never cost you a game.</div>
+  </section>
+
+  <footer>Made by a solo dev · Runs entirely in your browser · Not affiliated with ConcernedApe</footer>
+</div>
+
+<script src="items.js"></script>
+<script>
+(() => {
+  "use strict";
+
+  const HOST_FIELDS = [
+    { tag:"name", label:"Farmer Name", type:"text" },
+    { tag:"farmName", label:"Farm Name", type:"text" },
+    { tag:"money", label:"Gold (g)", type:"int", max:9999999, hint:"Your spendable gold." },
+    { tag:"totalMoneyEarned", label:"Total Gold Earned", type:"int", max:999999999, hint:"Affects Grandpa's evaluation." },
+    { tag:"stamina", label:"Stamina", type:"num" },
+    { tag:"maxStamina", label:"Max Stamina", type:"int", max:9999 },
+    { tag:"health", label:"Health", type:"int", max:9999 },
+    { tag:"maxHealth", label:"Max Health", type:"int", max:9999 },
+    { tag:"qiGems", label:"Qi Gems", type:"int", max:99999 },
+    { tag:"clubCoins", label:"Casino Club Coins", type:"int", max:999999 },
+  ];
+  const BOM = [0xEF, 0xBB, 0xBF];
+  const POINTS_PER_HEART = 250, MAX_NORMAL = 2500, MAX_SPOUSE = 3500;
+  const SPOUSE = new Set(["Married","Roommate"]);
+  const ITEMS = (window.STARDEW_ITEMS || []);
+  const ITEM_BY_NAME = new Map();
+  for (const it of ITEMS){ const k = it.n.toLowerCase(); if(!ITEM_BY_NAME.has(k)) ITEM_BY_NAME.set(k, it); }
+
+  const $ = id => document.getElementById(id);
+  const els = {
+    drop:$("drop"), fileInput:$("fileInput"), loadStatus:$("loadStatus"),
+    editorPanel:$("editorPanel"), fields:$("fields"), fileChip:$("fileChip"),
+    downloadBtn:$("downloadBtn"), saveStatus:$("saveStatus"),
+    slots:$("slots"), npcs:$("npcs"), itemlist:$("itemlist"),
+    itemSearch:$("itemSearch"), addStack:$("addStack"), addQuality:$("addQuality"),
+    addBtn:$("addBtn"), addItemBox:$("addItemBox"), maxHeartsBtn:$("maxHeartsBtn"),
+  };
+
+  let state = null; // { fileName, hadBOM, body, present, inv, npcData }
+
+  // ---------- helpers ----------
+  const xmlEscape = s => s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+  const xmlUnescape = s => s.replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&amp;/g,"&");
+  const reEscape = s => s.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
+  const setStatus = (n,m,k)=>{ n.textContent=m; n.className="status"+(k?" "+k:""); };
+  const matchTag = (xml,tag)=>{ const m = xml.match(new RegExp("<"+tag+">([\\s\\S]*?)</"+tag+">")); return m?m[1]:null; };
+
+  function hostFieldRegex(tag){
+    return new RegExp("(<player(?:\\s[^>]*)?>[\\s\\S]*?<"+tag+">)([\\s\\S]*?)(</"+tag+">)");
+  }
+
+  // ---------- inventory model ----------
+  function itemsBounds(text){
+    const p = text.search(/<player[\s>]/); if(p===-1) return null;
+    const io = text.indexOf("<items>", p); if(io===-1) return null;
+    const innerStart = io + "<items>".length;
+    const ic = text.indexOf("</items>", innerStart); if(ic===-1) return null;
+    return { innerStart, innerEnd: ic };
+  }
+  // Split the <items> inner region into top-level <Item> tokens. <Item> never
+  // nests another <Item>, so the next </Item> always closes the current one.
+  function tokenizeItems(region){
+    const toks = []; let i = 0;
+    while(true){
+      const open = region.indexOf("<Item", i); if(open===-1) break;
+      const tagEnd = region.indexOf(">", open); if(tagEnd===-1) break;
+      const selfClosed = region[tagEnd-1] === "/";
+      let end;
+      if(selfClosed){ end = tagEnd + 1; }
+      else { const c = region.indexOf("</Item>", tagEnd); if(c===-1) break; end = c + "</Item>".length; }
+      toks.push({ raw: region.slice(open,end), start: open, end });
+      i = end;
+    }
+    return toks;
+  }
+  function readInventory(text){
+    const bounds = itemsBounds(text); if(!bounds) return null;
+    const region = text.slice(bounds.innerStart, bounds.innerEnd);
+    const tokens = tokenizeItems(region);
+    const slots = tokens.map((t,i)=>{
+      const isNil = /xsi:nil="true"/.test(t.raw) && !/xsi:type=/.test(t.raw);
+      if(isNil) return { i, empty:true };
+      const isObject = /xsi:type="Object"/.test(t.raw);
+      const xtype = (t.raw.match(/xsi:type="([^"]+)"/)||[])[1] || "";
+      return { i, empty:false, isObject, xtype,
+        name: matchTag(t.raw,"name")||"?", itemId: matchTag(t.raw,"itemId")||"",
+        stack: matchTag(t.raw,"stack")||"1", quality: matchTag(t.raw,"quality")||"0" };
+    });
+    return { bounds, region, tokens, slots };
+  }
+  function buildObjectItem(id,name,category,price,edibility,stack,quality){
+    const n = xmlEscape(name);
+    return '<Item xsi:type="Object">'
+      +'<isLostItem>false</isLostItem><category>'+category+'</category>'
+      +'<hasBeenInInventory>true</hasBeenInInventory><name>'+n+'</name>'
+      +'<parentSheetIndex>'+id+'</parentSheetIndex><itemId>'+id+'</itemId>'
+      +'<specialItem>false</specialItem><isRecipe>false</isRecipe>'
+      +'<quality>'+quality+'</quality><stack>'+stack+'</stack><SpecialVariable>0</SpecialVariable>'
+      +'<tileLocation><X>0</X><Y>0</Y></tileLocation><owner>0</owner><type>Basic</type>'
+      +'<canBeSetDown>true</canBeSetDown><canBeGrabbed>true</canBeGrabbed>'
+      +'<isSpawnedObject>false</isSpawnedObject><questItem>false</questItem><isOn>true</isOn>'
+      +'<fragility>0</fragility><price>'+price+'</price><edibility>'+edibility+'</edibility>'
+      +'<bigCraftable>false</bigCraftable><setOutdoors>false</setOutdoors><setIndoors>false</setIndoors>'
+      +'<readyForHarvest>false</readyForHarvest><showNextIndex>false</showNextIndex>'
+      +'<flipped>false</flipped><isLamp>false</isLamp><minutesUntilReady>0</minutesUntilReady>'
+      +'<boundingBox><X>0</X><Y>0</Y><Width>0</Width><Height>0</Height><Location><X>0</X><Y>0</Y></Location><Size><X>0</X><Y>0</Y></Size></boundingBox>'
+      +'<scale><X>0</X><Y>0</Y></scale><uses>0</uses><destroyOvernight>false</destroyOvernight></Item>';
+  }
+  const NIL_ITEM = '<Item xsi:nil="true" />';
+  function rebuildInventory(text, inv){
+    let out = "", cursor = 0;
+    for(const t of inv.tokens){
+      out += inv.region.slice(cursor, t.start);
+      out += (t.replacement !== undefined ? t.replacement : t.raw);
+      cursor = t.end;
+    }
+    out += inv.region.slice(cursor);
+    return text.slice(0, inv.bounds.innerStart) + out + text.slice(inv.bounds.innerEnd);
+  }
+
+  // ---------- friendships model ----------
+  function friendshipBounds(text){
+    const p = text.search(/<player[\s>]/); if(p===-1) return null;
+    const fo = text.indexOf("<friendshipData>", p); if(fo===-1) return null;
+    const fc = text.indexOf("</friendshipData>", fo); if(fc===-1) return null;
+    return { start: fo, end: fc + "</friendshipData>".length };
+  }
+  function readFriendships(text){
+    const b = friendshipBounds(text); if(!b) return null;
+    const block = text.slice(b.start, b.end);
+    const doc = new DOMParser().parseFromString(block, "application/xml");
+    if(doc.getElementsByTagName("parsererror").length) return null;
+    const list = [];
+    for(const item of doc.getElementsByTagName("item")){
+      const nameEl = item.querySelector("key > string");
+      const ptsEl = item.querySelector("value Points");
+      const statEl = item.querySelector("value Status");
+      if(!nameEl || !ptsEl) continue;
+      list.push({ name:nameEl.textContent, points:parseInt(ptsEl.textContent||"0",10)||0,
+                  status: statEl ? statEl.textContent : "Friendly" });
+    }
+    list.sort((a,b)=> a.name.localeCompare(b.name));
+    return list;
+  }
+  function maxPointsFor(status){ return SPOUSE.has(status) ? MAX_SPOUSE : MAX_NORMAL; }
+
+  // ---------- load ----------
+  function handleFile(file){
+    setStatus(els.loadStatus, "Reading "+file.name+"…", null);
+    const r = new FileReader();
+    r.onerror = ()=> setStatus(els.loadStatus, "Couldn't read that file.", "err");
+    r.onload = ()=>{ try{ parseSave(file.name, new Uint8Array(r.result)); }
+                     catch(e){ setStatus(els.loadStatus, "Not a Stardew save: "+e.message, "err"); } };
+    r.readAsArrayBuffer(file);
+  }
+  function parseSave(fileName, bytes){
+    let hadBOM=false;
+    if(bytes.length>=3 && bytes[0]===BOM[0]&&bytes[1]===BOM[1]&&bytes[2]===BOM[2]){ hadBOM=true; bytes=bytes.subarray(3); }
+    const body = new TextDecoder("utf-8",{ignoreBOM:true}).decode(bytes);
+    if(body.indexOf("<player")===-1 || body.indexOf("<?xml")===-1) throw new Error("missing <?xml> or <player>");
+    const doc = new DOMParser().parseFromString(body,"application/xml");
+    if(doc.getElementsByTagName("parsererror").length) throw new Error("file isn't valid XML");
+    const playerEl = doc.getElementsByTagName("player")[0];
+    if(!playerEl) throw new Error("no <player> element");
+
+    const present = [];
+    for(const f of HOST_FIELDS){
+      const c = Array.from(playerEl.children).find(x=>x.tagName===f.tag);
+      if(c) present.push({ field:f, value:(c.textContent||"").trim() });
+    }
+    const inv = readInventory(body);
+    const npcData = readFriendships(body);
+
+    state = { fileName, hadBOM, body, present, inv, npcData };
+    renderAll();
+    const bits = [present.length+" stats", inv?inv.slots.length+" slots":"no inventory", npcData?npcData.length+" NPCs":"no friendships"];
+    setStatus(els.loadStatus, "Loaded ✓  ("+bits.join(", ")+")", "ok");
+  }
+
+  // ---------- render ----------
+  function renderAll(){ renderStats(); renderInventory(); renderFriendships(); renderChip();
+    els.editorPanel.classList.remove("hidden"); els.editorPanel.scrollIntoView({behavior:"smooth",block:"start"});
+    setStatus(els.saveStatus,"",null);
+  }
+  function renderChip(){
+    els.fileChip.innerHTML="";
+    const n=document.createElement("span"); n.textContent="📄 "+state.fileName;
+    const x=document.createElement("button"); x.textContent="✕"; x.title="Load a different file"; x.onclick=reset;
+    els.fileChip.append(n,x);
+  }
+  function renderStats(){
+    els.fields.innerHTML="";
+    for(const {field,value} of state.present){
+      const wrap=document.createElement("div"); wrap.className="field";
+      const label=document.createElement("label"); label.textContent=field.label; label.htmlFor="f_"+field.tag;
+      const input=document.createElement("input"); input.id="f_"+field.tag; input.dataset.tag=field.tag; input.dataset.type=field.type;
+      if(field.type==="text"){ input.type="text"; input.value=xmlUnescape(value); }
+      else { input.type="number"; input.value=value; input.step=field.type==="num"?"any":"1"; input.min="0"; }
+      wrap.append(label,input);
+      if(field.type!=="text" && field.max){
+        const b=document.createElement("button"); b.className="maxbtn"; b.type="button";
+        b.textContent="Max ("+field.max.toLocaleString()+")"; b.onclick=()=>{input.value=field.max;}; wrap.append(b);
+      }
+      if(field.hint){ const h=document.createElement("div"); h.className="hint"; h.textContent=field.hint; wrap.append(h); }
+      els.fields.append(wrap);
+    }
+  }
+  function renderInventory(){
+    // datalist (once)
+    if(!els.itemlist.childElementCount && ITEMS.length){
+      const frag=document.createDocumentFragment();
+      for(const it of ITEMS){ const o=document.createElement("option"); o.value=it.n; frag.append(o); }
+      els.itemlist.append(frag);
+    }
+    els.slots.innerHTML="";
+    if(!state.inv){ els.slots.innerHTML='<p style="opacity:.6">No inventory found in this save.</p>'; els.addItemBox.style.display="none"; return; }
+    state.inv.slots.forEach(slot=>{
+      const row=document.createElement("div"); row.className="slot"+(slot.empty?" empty":"");
+      const num=document.createElement("div"); num.className="num"; num.textContent=(slot.i+1);
+      const nm=document.createElement("div"); nm.className="nm";
+      row.append(num,nm);
+      if(slot.empty){ nm.textContent="— empty —"; els.slots.append(row); return; }
+      nm.textContent=slot.name;
+      if(slot.isObject){
+        const st=document.createElement("input"); st.className="st"; st.type="number"; st.min="1"; st.max="999"; st.value=slot.stack; st.title="Quantity";
+        st.onchange=()=>applyStack(slot.i, st.value);
+        const q=document.createElement("select"); q.title="Quality";
+        [["0","Normal"],["1","Silver"],["2","Gold"],["4","Iridium"]].forEach(([v,l])=>{ const o=document.createElement("option"); o.value=v; o.textContent=l; if(v===slot.quality)o.selected=true; q.append(o); });
+        q.onchange=()=>applyQuality(slot.i, q.value);
+        row.append(st,q);
+      } else {
+        const tag=document.createElement("span"); tag.className="xtag"; tag.textContent="("+(slot.xtype||"special")+" — qty/quality locked)"; row.append(tag);
+      }
+      const x=document.createElement("button"); x.className="x"; x.textContent="Clear"; x.onclick=()=>clearSlot(slot.i);
+      row.append(x);
+      els.slots.append(row);
+    });
+    els.addItemBox.style.display = state.inv.slots.some(s=>s.empty) ? "" : "none";
+  }
+  function renderFriendships(){
+    els.npcs.innerHTML="";
+    if(!state.npcData){ els.npcs.innerHTML='<p style="opacity:.6">No friendship data found in this save.</p>'; els.maxHeartsBtn.style.display="none"; return; }
+    state.npcData.forEach(npc=>{
+      const cap=maxPointsFor(npc.status);
+      const row=document.createElement("div"); row.className="npc";
+      const nm=document.createElement("div"); nm.className="nm"; nm.textContent=npc.name;
+      if(SPOUSE.has(npc.status)){ const s=document.createElement("span"); s.className="spouse"; s.textContent=npc.status; nm.append(" "); nm.append(s); }
+      const inp=document.createElement("input"); inp.type="number"; inp.min="0"; inp.max=cap; inp.value=npc.points; inp.dataset.name=npc.name;
+      const hl=document.createElement("div"); hl.className="hearts";
+      const upd=()=>{ let p=parseInt(inp.value||"0",10)||0; p=Math.max(0,Math.min(p,cap)); hl.textContent="❤ "+Math.floor(p/POINTS_PER_HEART)+"/"+(cap/POINTS_PER_HEART); npc._points=p; };
+      inp.oninput=upd; npc._input=inp; upd();
+      row.append(nm,inp,hl); els.npcs.append(row);
+    });
+  }
+
+  // ---------- inventory edits (mutate tokens) ----------
+  function applyStack(i,val){ const s=Math.max(1,Math.trunc(Number(val)||1)); const t=state.inv.tokens[i];
+    t.replacement=(t.replacement||t.raw).replace(/(<stack>)\d+(<\/stack>)/,"$1"+s+"$2"); }
+  function applyQuality(i,val){ const q=String(Math.trunc(Number(val)||0)); const t=state.inv.tokens[i];
+    t.replacement=(t.replacement||t.raw).replace(/(<quality>)\d+(<\/quality>)/,"$1"+q+"$2"); }
+  function clearSlot(i){ state.inv.tokens[i].replacement=NIL_ITEM; state.inv.slots[i]={i,empty:true}; renderInventory(); }
+  function addItem(){
+    const name=els.itemSearch.value.trim(); if(!name){ setStatus(els.saveStatus,"Type an item name first.","err"); return; }
+    const it=ITEM_BY_NAME.get(name.toLowerCase());
+    if(!it){ setStatus(els.saveStatus,"“"+name+"” isn't in the item list — pick one from the dropdown.","err"); return; }
+    const free=state.inv.slots.find(s=>s.empty); if(!free){ setStatus(els.saveStatus,"Backpack is full (36/36).","err"); return; }
+    const stack=Math.max(1,Math.trunc(Number(els.addStack.value)||1));
+    const quality=String(Math.trunc(Number(els.addQuality.value)||0));
+    state.inv.tokens[free.i].replacement=buildObjectItem(it.id,it.n,it.c,it.p,it.e,stack,quality);
+    state.inv.slots[free.i]={ i:free.i, empty:false, isObject:true, name:it.n, itemId:it.id, stack:String(stack), quality };
+    els.itemSearch.value=""; renderInventory();
+    setStatus(els.saveStatus,"Added "+stack+"× "+it.n+" to slot "+(free.i+1)+". Remember to Save & Download.","ok");
+  }
+  function maxAllHearts(){ if(!state.npcData) return; state.npcData.forEach(n=>{ const cap=maxPointsFor(n.status); n._input.value=cap; n._input.dispatchEvent(new Event("input")); }); }
+
+  // ---------- save ----------
+  function download(){
+    if(!state) return;
+    let text = state.body;
+    // 1) inventory first (uses offsets valid on the original body)
+    if(state.inv) text = rebuildInventory(text, state.inv);
+    // 2) stats (position-independent regex)
+    for(const input of els.fields.querySelectorAll("input")){
+      const tag=input.dataset.tag, type=input.dataset.type; let val;
+      if(type==="text") val=xmlEscape(input.value);
+      else { const raw=input.value.trim(); if(raw===""||isNaN(Number(raw))){ setStatus(els.saveStatus,"“"+tag+"” isn't a valid number.","err"); return; }
+             val=(type==="int")?String(Math.trunc(Number(raw))):raw; }
+      let hit=false; text=text.replace(hostFieldRegex(tag),(m,a,b,c)=>{hit=true;return a+val+c;});
+      if(!hit){ setStatus(els.saveStatus,"Couldn't write <"+tag+"> — save unchanged.","err"); return; }
+    }
+    // 3) friendships (scoped to the friendshipData block)
+    if(state.npcData){
+      const b=friendshipBounds(text);
+      if(b){
+        let block=text.slice(b.start,b.end);
+        for(const npc of state.npcData){
+          if(npc._points===undefined) continue;
+          const re=new RegExp("(<string>"+reEscape(npc.name)+"</string>[\\s\\S]*?<Points>)(\\d+)(</Points>)");
+          block=block.replace(re,(m,a,p,c)=>a+npc._points+c);
+        }
+        text=text.slice(0,b.start)+block+text.slice(b.end);
+      }
+    }
+    // encode + BOM
+    const bodyBytes=new TextEncoder().encode(text);
+    const out=state.hadBOM?new Uint8Array([...BOM,...bodyBytes]):bodyBytes;
+    const url=URL.createObjectURL(new Blob([out],{type:"application/octet-stream"}));
+    const a=document.createElement("a"); a.href=url; a.download=state.fileName; document.body.append(a); a.click(); a.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),1000);
+    setStatus(els.saveStatus,"Saved ✓  Downloaded your edited save. Back up the original before overwriting!","ok");
+  }
+
+  function reset(){ state=null; els.editorPanel.classList.add("hidden"); els.fileInput.value=""; setStatus(els.loadStatus,"",null); }
+
+  // ---------- events ----------
+  els.drop.onclick=()=>els.fileInput.click();
+  els.fileInput.onchange=e=>{ if(e.target.files[0]) handleFile(e.target.files[0]); };
+  ["dragover","dragenter"].forEach(ev=>els.drop.addEventListener(ev,e=>{e.preventDefault();els.drop.classList.add("over");}));
+  ["dragleave","dragend","drop"].forEach(ev=>els.drop.addEventListener(ev,e=>{e.preventDefault();els.drop.classList.remove("over");}));
+  els.drop.addEventListener("drop",e=>{ if(e.dataTransfer.files[0]) handleFile(e.dataTransfer.files[0]); });
+  els.downloadBtn.onclick=download;
+  els.addBtn.onclick=addItem;
+  els.maxHeartsBtn.onclick=maxAllHearts;
+  document.querySelectorAll(".tab").forEach(tab=>tab.onclick=()=>{
+    document.querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));
+    document.querySelectorAll(".tabpane").forEach(p=>p.classList.remove("active"));
+    tab.classList.add("active"); $("pane-"+tab.dataset.tab).classList.add("active");
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,8914 @@
+{
+  "bigcraftable_count": 182,
+  "bigcraftable_skipped": 0,
+  "bigcraftables": {
+    "0": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "0",
+      "name": "House Plant",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "1": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "1",
+      "name": "House Plant",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "10": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "10",
+      "name": "Bee House",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "101": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "101",
+      "name": "Incubator",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "104": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "104",
+      "name": "Heater",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "105": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "105",
+      "name": "Tapper",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "106": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "106",
+      "name": "Camera",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "107": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "107",
+      "name": "Plush Bunny",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "108": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "108",
+      "name": "Tub o' Flowers",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "110": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "110",
+      "name": "Rarecrow",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "111": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "111",
+      "name": "Decorative Pitcher",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "112": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "112",
+      "name": "Dried Sunflowers",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "113": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "113",
+      "name": "Rarecrow",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "114": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "114",
+      "name": "Charcoal Kiln",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "116": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "116",
+      "name": "Stardew Hero Trophy",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "117": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "117",
+      "name": "Soda Machine",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "118": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "118",
+      "name": "Barrel",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "119": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "119",
+      "name": "Crate",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "12": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "12",
+      "name": "Keg",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "120": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "120",
+      "name": "Barrel",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "121": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "121",
+      "name": "Crate",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "122": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "122",
+      "name": "Barrel",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "123": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "123",
+      "name": "Crate",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "124": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "124",
+      "name": "Barrel",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "125": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "125",
+      "name": "Crate",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "126": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "126",
+      "name": "Rarecrow",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "127": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "127",
+      "name": "Statue Of Endless Fortune",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "128": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "128",
+      "name": "Mushroom Box",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "13": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "13",
+      "name": "Furnace",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "130": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "130",
+      "name": "Chest",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "136": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "136",
+      "name": "Rarecrow",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "137": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "137",
+      "name": "Rarecrow",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "138": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "138",
+      "name": "Rarecrow",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "139": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "139",
+      "name": "Rarecrow",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "140": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "140",
+      "name": "Rarecrow",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "141": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "141",
+      "name": "Prairie King Arcade System",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "143": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "143",
+      "name": "Wooden Brazier",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "144": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "144",
+      "name": "Stone Brazier",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "145": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "145",
+      "name": "Gold Brazier",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "146": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "146",
+      "name": "Campfire",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "147": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "147",
+      "name": "Stump Brazier",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "148": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "148",
+      "name": "Carved Brazier",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "149": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "149",
+      "name": "Skull Brazier",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "15": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "15",
+      "name": "Preserves Jar",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "150": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "150",
+      "name": "Barrel Brazier",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "151": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "151",
+      "name": "Marble Brazier",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "152": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "152",
+      "name": "Wood Lamp-post",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "153": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "153",
+      "name": "Iron Lamp-post",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "154": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "154",
+      "name": "Worm Bin",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "155": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "155",
+      "name": "??HMTGF??",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "156": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "156",
+      "name": "Slime Incubator",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "158": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "158",
+      "name": "Slime Egg-Press",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "159": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "159",
+      "name": "Junimo Kart Arcade System",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "16": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "16",
+      "name": "Cheese Press",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "160": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "160",
+      "name": "Statue Of Perfection",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "161": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "161",
+      "name": "??Pinky Lemon??",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "162": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "162",
+      "name": "??Foroguemon??",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "163": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "163",
+      "name": "Cask",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "164": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "164",
+      "name": "Solid Gold Lewis",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "165": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "165",
+      "name": "Auto-Grabber",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "167": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "167",
+      "name": "Deluxe Scarecrow",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "17": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "17",
+      "name": "Loom",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "174": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "174",
+      "name": "Barrel",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "175": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "175",
+      "name": "Crate",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "182": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "182",
+      "name": "Geode Crusher",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "184": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "184",
+      "name": "Seasonal Plant",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "188": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "188",
+      "name": "Seasonal Plant",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "19": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "19",
+      "name": "Oil Maker",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "192": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "192",
+      "name": "Seasonal Plant",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "196": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "196",
+      "name": "Seasonal Plant",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "2": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "2",
+      "name": "House Plant",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "20": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "20",
+      "name": "Recycling Machine",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "200": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "200",
+      "name": "Seasonal Plant",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "204": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "204",
+      "name": "Seasonal Plant",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "208": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "208",
+      "name": "Workbench",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "209": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "209",
+      "name": "Mini-Jukebox",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "21": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "21",
+      "name": "Crystalarium",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "211": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "211",
+      "name": "Wood Chipper",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "214": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "214",
+      "name": "Telephone",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "216": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "216",
+      "name": "Mini-Fridge",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "219": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "219",
+      "name": "Cursed P.K. Arcade System",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "22": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "22",
+      "name": "Table Piece L",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "221": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "221",
+      "name": "Item Pedestal",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "23": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "23",
+      "name": "Table Piece R",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "231": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "231",
+      "name": "Solar Panel",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "232": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "232",
+      "name": "Stone Chest",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "238": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "238",
+      "name": "Mini-Obelisk",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "239": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "239",
+      "name": "Farm Computer",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "24": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "24",
+      "name": "Mayonnaise Machine",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "246": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "246",
+      "name": "Coffee Maker",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "247": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "247",
+      "name": "Sewing Machine",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "248": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "248",
+      "name": "Mini-Shipping Bin",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "25": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "25",
+      "name": "Seed Maker",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "254": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "254",
+      "name": "Ostrich Incubator",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "256": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "256",
+      "name": "Junimo Chest",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "26": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "26",
+      "name": "Wood Chair",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "262": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "262",
+      "name": "Barrel",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "263": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "263",
+      "name": "Crate",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "264": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "264",
+      "name": "Heavy Tapper",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "265": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "265",
+      "name": "Deconstructor",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "27": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "27",
+      "name": "Wood Chair",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "272": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "272",
+      "name": "Auto-Petter",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "275": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "275",
+      "name": "Hopper",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "278": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "278",
+      "name": "Campfire",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "28": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "28",
+      "name": "Skeleton Model",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "280": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "280",
+      "name": "Statue Of True Perfection",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "29": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "29",
+      "name": "Obelisk",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "3": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "3",
+      "name": "House Plant",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "31": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "31",
+      "name": "Chicken Statue",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "32": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "32",
+      "name": "Stone Cairn",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "33": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "33",
+      "name": "Suit Of Armor",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "34": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "34",
+      "name": "Sign Of The Vessel",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "35": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "35",
+      "name": "Basic Log",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "36": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "36",
+      "name": "Lawn Flamingo",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "37": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "37",
+      "name": "Wood Sign",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "38": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "38",
+      "name": "Stone Sign",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "39": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "39",
+      "name": "Dark Sign",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "4": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "4",
+      "name": "House Plant",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "40": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "40",
+      "name": "Big Green Cane",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "41": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "41",
+      "name": "Green Canes",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "42": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "42",
+      "name": "Mixed Cane",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "43": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "43",
+      "name": "Red Canes",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "44": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "44",
+      "name": "Big Red Cane",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "45": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "45",
+      "name": "Ornamental Hay Bale",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "46": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "46",
+      "name": "Log Section",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "47": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "47",
+      "name": "Grave Stone",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "48": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "48",
+      "name": "Seasonal Decor",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "5": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "5",
+      "name": "House Plant",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "52": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "52",
+      "name": "Stone Frog",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "53": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "53",
+      "name": "Stone Parrot",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "54": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "54",
+      "name": "Stone Owl",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "55": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "55",
+      "name": "Stone Junimo",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "56": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "56",
+      "name": "Slime Ball",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "6": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "6",
+      "name": "House Plant",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "62": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "62",
+      "name": "Garden Pot",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "64": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "64",
+      "name": "Bookcase",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "65": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "65",
+      "name": "Fancy Table",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "66": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "66",
+      "name": "Ancient Table",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "67": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "67",
+      "name": "Ancient Stool",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "68": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "68",
+      "name": "Grandfather Clock",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "69": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "69",
+      "name": "Teddy Timer",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "7": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "7",
+      "name": "House Plant",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "70": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "70",
+      "name": "Dead Tree",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "71": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "71",
+      "name": "Staircase",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "72": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "72",
+      "name": "Tall Torch",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "73": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "73",
+      "name": "Ritual Mask",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "74": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "74",
+      "name": "Bonfire",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "75": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "75",
+      "name": "Bongo",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "76": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "76",
+      "name": "Decorative Spears",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "78": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "78",
+      "name": "Boulder",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "79": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "79",
+      "name": "Door",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "8": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "8",
+      "name": "Scarecrow",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "80": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "80",
+      "name": "Door",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "81": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "81",
+      "name": "Locked Door",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "82": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "82",
+      "name": "Locked Door",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "83": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "83",
+      "name": "Wicked Statue",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "84": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "84",
+      "name": "Wicked Statue",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "85": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "85",
+      "name": "Sloth Skeleton L",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "86": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "86",
+      "name": "Sloth Skeleton M",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "87": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "87",
+      "name": "Sloth Skeleton R",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "88": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "88",
+      "name": "Standing Geode",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "89": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "89",
+      "name": "Obsidian Vase",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "9": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "9",
+      "name": "Lightning Rod",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "90": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "90",
+      "name": "Bone Mill",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "94": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "94",
+      "name": "Singing Stone",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "95": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "95",
+      "name": "Stone Owl",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "96": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "96",
+      "name": "Strange Capsule",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "98": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "98",
+      "name": "Empty Capsule",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "99": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "99",
+      "name": "Feed Hopper",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "Anvil": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Anvil",
+      "name": "Anvil",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "BaitMaker": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "BaitMaker",
+      "name": "Bait Maker",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "BigChest": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "BigChest",
+      "name": "Big Chest",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "BigStoneChest": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "BigStoneChest",
+      "name": "Big Stone Chest",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "Dehydrator": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Dehydrator",
+      "name": "Dehydrator",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "DeluxeWormBin": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "DeluxeWormBin",
+      "name": "Deluxe Worm Bin",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "FishSmoker": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "FishSmoker",
+      "name": "Fish Smoker",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "HeavyFurnace": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "HeavyFurnace",
+      "name": "Heavy Furnace",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "MiniForge": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "MiniForge",
+      "name": "Mini-Forge",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "MushroomLog": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "MushroomLog",
+      "name": "Mushroom Log",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "StatueOfBlessings": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "StatueOfBlessings",
+      "name": "Statue Of Blessings",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "StatueOfTheDwarfKing": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "StatueOfTheDwarfKing",
+      "name": "Statue Of The Dwarf King",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "TextSign": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "TextSign",
+      "name": "Text Sign",
+      "object_type": "Basic",
+      "price": 0
+    }
+  },
+  "count": 807,
+  "items": {
+    "0": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "0",
+      "name": "Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "10": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "10",
+      "name": "Topaz Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "100": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "100",
+      "name": "Chipped Amphora",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "101": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "101",
+      "name": "Arrowhead",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "102": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "102",
+      "name": "Lost Book",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "103": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "103",
+      "name": "Ancient Doll",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "104": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "104",
+      "name": "Elvish Jewelry",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "105": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "105",
+      "name": "Chewing Stick",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "106": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "106",
+      "name": "Ornamental Fan",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "107": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "107",
+      "name": "Dinosaur Egg",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "108": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "108",
+      "name": "Rare Disc",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "109": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "109",
+      "name": "Ancient Sword",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "110": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "110",
+      "name": "Rusty Spoon",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "111": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "111",
+      "name": "Rusty Spur",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "112": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "112",
+      "name": "Rusty Cog",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "113": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "113",
+      "name": "Chicken Statue",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "114": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "114",
+      "name": "Ancient Seed",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "115": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "115",
+      "name": "Prehistoric Tool",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "116": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "116",
+      "name": "Dried Starfish",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "117": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "117",
+      "name": "Anchor",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "118": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "118",
+      "name": "Glass Shards",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "119": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "119",
+      "name": "Bone Flute",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "12": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "12",
+      "name": "Emerald Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "120": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "120",
+      "name": "Prehistoric Handaxe",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "121": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "121",
+      "name": "Dwarvish Helm",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "122": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "122",
+      "name": "Dwarf Gadget",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "123": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "123",
+      "name": "Ancient Drum",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "124": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "124",
+      "name": "Golden Mask",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "125": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "125",
+      "name": "Golden Relic",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "126": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "126",
+      "name": "Strange Doll",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "127": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "127",
+      "name": "Strange Doll",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "128": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "128",
+      "name": "Pufferfish",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "129": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "129",
+      "name": "Anchovy",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "130": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "130",
+      "name": "Tuna",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "131": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "131",
+      "name": "Sardine",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "132": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "132",
+      "name": "Bream",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "136": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "136",
+      "name": "Largemouth Bass",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "137": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "137",
+      "name": "Smallmouth Bass",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "138": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "138",
+      "name": "Rainbow Trout",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "139": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "139",
+      "name": "Salmon",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "14": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "14",
+      "name": "Aquamarine Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "140": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "140",
+      "name": "Walleye",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "141": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "141",
+      "name": "Perch",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "142": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "142",
+      "name": "Carp",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "143": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "143",
+      "name": "Catfish",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "144": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "144",
+      "name": "Pike",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "145": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "145",
+      "name": "Sunfish",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "146": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "146",
+      "name": "Red Mullet",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "147": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "147",
+      "name": "Herring",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "148": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "148",
+      "name": "Eel",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "149": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "149",
+      "name": "Octopus",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "150": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "150",
+      "name": "Red Snapper",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "151": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "151",
+      "name": "Squid",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "152": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "152",
+      "name": "Seaweed",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "153": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "153",
+      "name": "Green Algae",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "154": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "154",
+      "name": "Sea Cucumber",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "155": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "155",
+      "name": "Super Cucumber",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "156": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "156",
+      "name": "Ghostfish",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "157": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "157",
+      "name": "White Algae",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "158": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "158",
+      "name": "Stonefish",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "159": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "159",
+      "name": "Crimsonfish",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "16": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "16",
+      "name": "Wild Horseradish",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "160": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "160",
+      "name": "Angler",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "161": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "161",
+      "name": "Ice Pip",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "162": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "162",
+      "name": "Lava Eel",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "163": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "163",
+      "name": "Legend",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "164": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "164",
+      "name": "Sandfish",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "165": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "165",
+      "name": "Scorpion Carp",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "166": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "166",
+      "name": "Treasure Chest",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "167": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "167",
+      "name": "Joja Cola",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "168": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "168",
+      "name": "Trash",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "169": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "169",
+      "name": "Driftwood",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "170": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "170",
+      "name": "Broken Glasses",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "171": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "171",
+      "name": "Broken CD",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "172": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "172",
+      "name": "Soggy Newspaper",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "174": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "174",
+      "name": "Large Egg",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "176": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "176",
+      "name": "Egg",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "178": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "178",
+      "name": "Hay",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "18": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "18",
+      "name": "Daffodil",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "180": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "180",
+      "name": "Egg",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "182": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "182",
+      "name": "Large Egg",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "184": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "184",
+      "name": "Milk",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "186": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "186",
+      "name": "Large Milk",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "188": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "188",
+      "name": "Green Bean",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "190": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "190",
+      "name": "Cauliflower",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "191": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "191",
+      "name": "Ornate Necklace",
+      "object_type": "Quest",
+      "price": 0
+    },
+    "192": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "192",
+      "name": "Potato",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "194": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "194",
+      "name": "Fried Egg",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "195": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "195",
+      "name": "Omelet",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "196": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "196",
+      "name": "Salad",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "197": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "197",
+      "name": "Cheese Cauliflower",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "198": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "198",
+      "name": "Baked Fish",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "199": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "199",
+      "name": "Parsnip Soup",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "2": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "2",
+      "name": "Diamond Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "20": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "20",
+      "name": "Leek",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "200": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "200",
+      "name": "Vegetable Medley",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "201": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "201",
+      "name": "Complete Breakfast",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "202": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "202",
+      "name": "Fried Calamari",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "203": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "203",
+      "name": "Strange Bun",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "204": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "204",
+      "name": "Lucky Lunch",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "205": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "205",
+      "name": "Fried Mushroom",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "206": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "206",
+      "name": "Pizza",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "207": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "207",
+      "name": "Bean Hotpot",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "208": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "208",
+      "name": "Glazed Yams",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "209": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "209",
+      "name": "Carp Surprise",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "210": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "210",
+      "name": "Hashbrowns",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "211": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "211",
+      "name": "Pancakes",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "212": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "212",
+      "name": "Salmon Dinner",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "213": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "213",
+      "name": "Fish Taco",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "214": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "214",
+      "name": "Crispy Bass",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "215": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "215",
+      "name": "Pepper Poppers",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "216": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "216",
+      "name": "Bread",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "218": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "218",
+      "name": "Tom Kha Soup",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "219": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "219",
+      "name": "Trout Soup",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "22": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "22",
+      "name": "Dandelion",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "220": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "220",
+      "name": "Chocolate Cake",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "221": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "221",
+      "name": "Pink Cake",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "222": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "222",
+      "name": "Rhubarb Pie",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "223": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "223",
+      "name": "Cookies",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "224": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "224",
+      "name": "Spaghetti",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "225": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "225",
+      "name": "Fried Eel",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "226": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "226",
+      "name": "Spicy Eel",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "227": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "227",
+      "name": "Sashimi",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "228": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "228",
+      "name": "Maki Roll",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "229": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "229",
+      "name": "Tortilla",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "230": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "230",
+      "name": "Red Plate",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "231": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "231",
+      "name": "Eggplant Parmesan",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "232": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "232",
+      "name": "Rice Pudding",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "233": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "233",
+      "name": "Ice Cream",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "234": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "234",
+      "name": "Blueberry Tart",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "235": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "235",
+      "name": "Autumn's Bounty",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "236": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "236",
+      "name": "Pumpkin Soup",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "237": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "237",
+      "name": "Super Meal",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "238": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "238",
+      "name": "Cranberry Sauce",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "239": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "239",
+      "name": "Stuffing",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "24": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "24",
+      "name": "Parsnip",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "240": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "240",
+      "name": "Farmer's Lunch",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "241": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "241",
+      "name": "Survival Burger",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "242": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "242",
+      "name": "Dish O' The Sea",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "243": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "243",
+      "name": "Miner's Treat",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "244": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "244",
+      "name": "Roots Platter",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "245": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "245",
+      "name": "Sugar",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "246": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "246",
+      "name": "Wheat Flour",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "247": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "247",
+      "name": "Oil",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "248": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "248",
+      "name": "Garlic",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "25": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "25",
+      "name": "Mussel Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "250": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "250",
+      "name": "Kale",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "251": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "251",
+      "name": "Tea Sapling",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "252": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "252",
+      "name": "Rhubarb",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "253": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "253",
+      "name": "Triple Shot Espresso",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "254": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "254",
+      "name": "Melon",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "256": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "256",
+      "name": "Tomato",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "257": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "257",
+      "name": "Morel",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "258": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "258",
+      "name": "Blueberry",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "259": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "259",
+      "name": "Fiddlehead Fern",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "260": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "260",
+      "name": "Hot Pepper",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "261": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "261",
+      "name": "Warp Totem: Desert",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "262": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "262",
+      "name": "Wheat",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "264": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "264",
+      "name": "Radish",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "265": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "265",
+      "name": "Seafoam Pudding",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "266": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "266",
+      "name": "Red Cabbage",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "267": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "267",
+      "name": "Flounder",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "268": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "268",
+      "name": "Starfruit",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "269": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "269",
+      "name": "Midnight Carp",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "270": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "270",
+      "name": "Corn",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "271": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "271",
+      "name": "Unmilled Rice",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "272": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "272",
+      "name": "Eggplant",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "273": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "273",
+      "name": "Rice Shoot",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "274": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "274",
+      "name": "Artichoke",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "275": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "275",
+      "name": "Artifact Trove",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "276": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "276",
+      "name": "Pumpkin",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "277": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "277",
+      "name": "Wilted Bouquet",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "278": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "278",
+      "name": "Bok Choy",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "279": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "279",
+      "name": "Magic Rock Candy",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "280": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "280",
+      "name": "Yam",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "281": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "281",
+      "name": "Chanterelle",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "282": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "282",
+      "name": "Cranberries",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "283": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "283",
+      "name": "Holly",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "284": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "284",
+      "name": "Beet",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "286": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "286",
+      "name": "Cherry Bomb",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "287": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "287",
+      "name": "Bomb",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "288": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "288",
+      "name": "Mega Bomb",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "289": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "289",
+      "name": "Ostrich Egg",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "290": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "290",
+      "name": "Iron Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "292": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "292",
+      "name": "Mahogany Seed",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "293": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "293",
+      "name": "Brick Floor",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "294": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "294",
+      "name": "Twig",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "295": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "295",
+      "name": "Twig",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "296": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "296",
+      "name": "Salmonberry",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "297": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "297",
+      "name": "Grass Starter",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "298": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "298",
+      "name": "Hardwood Fence",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "299": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "299",
+      "name": "Amaranth Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "30": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "30",
+      "name": "Lumber",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "300": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "300",
+      "name": "Amaranth",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "301": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "301",
+      "name": "Grape Starter",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "302": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "302",
+      "name": "Hops Starter",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "303": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "303",
+      "name": "Pale Ale",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "304": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "304",
+      "name": "Hops",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "305": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "305",
+      "name": "Void Egg",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "306": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "306",
+      "name": "Mayonnaise",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "307": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "307",
+      "name": "Duck Mayonnaise",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "308": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "308",
+      "name": "Void Mayonnaise",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "309": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "309",
+      "name": "Acorn",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "310": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "310",
+      "name": "Maple Seed",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "311": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "311",
+      "name": "Pine Cone",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "313": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "313",
+      "name": "Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "314": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "314",
+      "name": "Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "315": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "315",
+      "name": "Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "316": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "316",
+      "name": "Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "317": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "317",
+      "name": "Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "318": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "318",
+      "name": "Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "319": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "319",
+      "name": "Ice Crystal",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "32": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "32",
+      "name": "Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "320": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "320",
+      "name": "Ice Crystal",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "321": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "321",
+      "name": "Ice Crystal",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "322": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "322",
+      "name": "Wood Fence",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "323": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "323",
+      "name": "Stone Fence",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "324": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "324",
+      "name": "Iron Fence",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "325": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "325",
+      "name": "Gate",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "326": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "326",
+      "name": "Dwarvish Translation Guide",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "328": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "328",
+      "name": "Wood Floor",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "329": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "329",
+      "name": "Stone Floor",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "330": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "330",
+      "name": "Clay",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "331": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "331",
+      "name": "Weathered Floor",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "333": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "333",
+      "name": "Crystal Floor",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "334": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "334",
+      "name": "Copper Bar",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "335": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "335",
+      "name": "Iron Bar",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "336": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "336",
+      "name": "Gold Bar",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "337": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "337",
+      "name": "Iridium Bar",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "338": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "338",
+      "name": "Refined Quartz",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "34": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "34",
+      "name": "Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "340": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "340",
+      "name": "Honey",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "341": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "341",
+      "name": "Tea Set",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "342": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "342",
+      "name": "Pickles",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "343": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "343",
+      "name": "Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "344": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "344",
+      "name": "Jelly",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "346": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "346",
+      "name": "Beer",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "347": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "347",
+      "name": "Rare Seed",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "348": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "348",
+      "name": "Wine",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "349": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "349",
+      "name": "Energy Tonic",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "350": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "350",
+      "name": "Juice",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "351": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "351",
+      "name": "Muscle Remedy",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "36": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "36",
+      "name": "Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "368": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "368",
+      "name": "Basic Fertilizer",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "369": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "369",
+      "name": "Quality Fertilizer",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "370": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "370",
+      "name": "Basic Retaining Soil",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "371": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "371",
+      "name": "Quality Retaining Soil",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "372": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "372",
+      "name": "Clam",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "373": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "373",
+      "name": "Golden Pumpkin",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "376": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "376",
+      "name": "Poppy",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "378": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "378",
+      "name": "Copper Ore",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "38": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "38",
+      "name": "Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "380": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "380",
+      "name": "Iron Ore",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "382": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "382",
+      "name": "Coal",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "384": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "384",
+      "name": "Gold Ore",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "386": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "386",
+      "name": "Iridium Ore",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "388": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "388",
+      "name": "Wood",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "390": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "390",
+      "name": "Stone",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "392": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "392",
+      "name": "Nautilus Shell",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "393": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "393",
+      "name": "Coral",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "394": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "394",
+      "name": "Rainbow Shell",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "395": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "395",
+      "name": "Coffee",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "396": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "396",
+      "name": "Spice Berry",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "397": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "397",
+      "name": "Sea Urchin",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "398": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "398",
+      "name": "Grape",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "399": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "399",
+      "name": "Spring Onion",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "4": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "4",
+      "name": "Ruby Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "40": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "40",
+      "name": "Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "400": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "400",
+      "name": "Strawberry",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "401": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "401",
+      "name": "Straw Floor",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "402": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "402",
+      "name": "Sweet Pea",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "403": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "403",
+      "name": "Field Snack",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "404": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "404",
+      "name": "Common Mushroom",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "405": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "405",
+      "name": "Wood Path",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "406": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "406",
+      "name": "Wild Plum",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "407": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "407",
+      "name": "Gravel Path",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "408": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "408",
+      "name": "Hazelnut",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "409": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "409",
+      "name": "Crystal Path",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "410": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "410",
+      "name": "Blackberry",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "411": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "411",
+      "name": "Cobblestone Path",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "412": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "412",
+      "name": "Winter Root",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "413": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "413",
+      "name": "Blue Slime Egg",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "414": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "414",
+      "name": "Crystal Fruit",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "415": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "415",
+      "name": "Stepping Stone Path",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "416": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "416",
+      "name": "Snow Yam",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "417": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "417",
+      "name": "Sweet Gem Berry",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "418": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "418",
+      "name": "Crocus",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "419": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "419",
+      "name": "Vinegar",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "42": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "42",
+      "name": "Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "420": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "420",
+      "name": "Red Mushroom",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "421": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "421",
+      "name": "Sunflower",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "422": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "422",
+      "name": "Purple Mushroom",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "423": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "423",
+      "name": "Rice",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "424": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "424",
+      "name": "Cheese",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "425": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "425",
+      "name": "Fairy Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "426": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "426",
+      "name": "Goat Cheese",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "427": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "427",
+      "name": "Tulip Bulb",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "428": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "428",
+      "name": "Cloth",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "429": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "429",
+      "name": "Jazz Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "430": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "430",
+      "name": "Truffle",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "431": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "431",
+      "name": "Sunflower Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "432": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "432",
+      "name": "Truffle Oil",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "433": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "433",
+      "name": "Coffee Bean",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "434": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "434",
+      "name": "Stardrop",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "436": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "436",
+      "name": "Goat Milk",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "437": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "437",
+      "name": "Red Slime Egg",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "438": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "438",
+      "name": "L. Goat Milk",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "439": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "439",
+      "name": "Purple Slime Egg",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "44": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "44",
+      "name": "Gem Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "440": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "440",
+      "name": "Wool",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "441": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "441",
+      "name": "Explosive Ammo",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "442": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "442",
+      "name": "Duck Egg",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "444": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "444",
+      "name": "Duck Feather",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "445": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "445",
+      "name": "Caviar",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "446": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "446",
+      "name": "Rabbit's Foot",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "447": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "447",
+      "name": "Aged Roe",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "449": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "449",
+      "name": "Stone Base",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "450": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "450",
+      "name": "Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "452": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "452",
+      "name": "Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "453": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "453",
+      "name": "Poppy Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "454": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "454",
+      "name": "Ancient Fruit",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "455": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "455",
+      "name": "Spangle Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "456": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "456",
+      "name": "Algae Soup",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "457": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "457",
+      "name": "Pale Broth",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "458": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "458",
+      "name": "Bouquet",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "459": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "459",
+      "name": "Mead",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "46": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "46",
+      "name": "Mystic Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "460": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "460",
+      "name": "Mermaid's Pendant",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "461": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "461",
+      "name": "Decorative Pot",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "463": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "463",
+      "name": "Drum Block",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "464": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "464",
+      "name": "Flute Block",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "465": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "465",
+      "name": "Speed-Gro",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "466": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "466",
+      "name": "Deluxe Speed-Gro",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "472": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "472",
+      "name": "Parsnip Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "473": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "473",
+      "name": "Bean Starter",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "474": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "474",
+      "name": "Cauliflower Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "475": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "475",
+      "name": "Potato Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "476": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "476",
+      "name": "Garlic Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "477": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "477",
+      "name": "Kale Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "478": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "478",
+      "name": "Rhubarb Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "479": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "479",
+      "name": "Melon Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "48": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "48",
+      "name": "Snowy Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "480": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "480",
+      "name": "Tomato Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "481": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "481",
+      "name": "Blueberry Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "482": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "482",
+      "name": "Pepper Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "483": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "483",
+      "name": "Wheat Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "484": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "484",
+      "name": "Radish Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "485": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "485",
+      "name": "Red Cabbage Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "486": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "486",
+      "name": "Starfruit Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "487": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "487",
+      "name": "Corn Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "488": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "488",
+      "name": "Eggplant Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "489": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "489",
+      "name": "Artichoke Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "490": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "490",
+      "name": "Pumpkin Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "491": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "491",
+      "name": "Bok Choy Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "492": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "492",
+      "name": "Yam Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "493": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "493",
+      "name": "Cranberry Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "494": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "494",
+      "name": "Beet Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "495": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "495",
+      "name": "Spring Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "496": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "496",
+      "name": "Summer Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "497": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "497",
+      "name": "Fall Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "498": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "498",
+      "name": "Winter Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "499": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "499",
+      "name": "Ancient Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "50": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "50",
+      "name": "Snowy Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "516": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "516",
+      "name": "Small Glow Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "517": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "517",
+      "name": "Glow Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "518": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "518",
+      "name": "Small Magnet Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "519": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "519",
+      "name": "Magnet Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "52": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "52",
+      "name": "Snowy Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "520": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "520",
+      "name": "Slime Charmer Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "521": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "521",
+      "name": "Warrior Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "522": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "522",
+      "name": "Vampire Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "523": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "523",
+      "name": "Savage Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "524": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "524",
+      "name": "Ring of Yoba",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "525": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "525",
+      "name": "Sturdy Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "526": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "526",
+      "name": "Burglar's Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "527": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "527",
+      "name": "Iridium Band",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "528": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "528",
+      "name": "Jukebox Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "529": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "529",
+      "name": "Amethyst Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "530": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "530",
+      "name": "Topaz Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "531": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "531",
+      "name": "Aquamarine Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "532": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "532",
+      "name": "Jade Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "533": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "533",
+      "name": "Emerald Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "534": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "534",
+      "name": "Ruby Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "535": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "535",
+      "name": "Geode",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "536": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "536",
+      "name": "Frozen Geode",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "537": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "537",
+      "name": "Magma Geode",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "538": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "538",
+      "name": "Alamite",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "539": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "539",
+      "name": "Bixite",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "54": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "54",
+      "name": "Snowy Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "540": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "540",
+      "name": "Baryte",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "541": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "541",
+      "name": "Aerinite",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "542": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "542",
+      "name": "Calcite",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "543": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "543",
+      "name": "Dolomite",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "544": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "544",
+      "name": "Esperite",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "545": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "545",
+      "name": "Fluorapatite",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "546": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "546",
+      "name": "Geminite",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "547": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "547",
+      "name": "Helvite",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "548": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "548",
+      "name": "Jamborite",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "549": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "549",
+      "name": "Jagoite",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "550": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "550",
+      "name": "Kyanite",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "551": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "551",
+      "name": "Lunarite",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "552": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "552",
+      "name": "Malachite",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "553": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "553",
+      "name": "Neptunite",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "554": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "554",
+      "name": "Lemon Stone",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "555": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "555",
+      "name": "Nekoite",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "556": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "556",
+      "name": "Orpiment",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "557": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "557",
+      "name": "Petrified Slime",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "558": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "558",
+      "name": "Thunder Egg",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "559": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "559",
+      "name": "Pyrite",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "56": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "56",
+      "name": "Snowy Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "560": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "560",
+      "name": "Ocean Stone",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "561": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "561",
+      "name": "Ghost Crystal",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "562": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "562",
+      "name": "Tigerseye",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "563": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "563",
+      "name": "Jasper",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "564": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "564",
+      "name": "Opal",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "565": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "565",
+      "name": "Fire Opal",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "566": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "566",
+      "name": "Celestine",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "567": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "567",
+      "name": "Marble",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "568": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "568",
+      "name": "Sandstone",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "569": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "569",
+      "name": "Granite",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "570": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "570",
+      "name": "Basalt",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "571": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "571",
+      "name": "Limestone",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "572": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "572",
+      "name": "Soapstone",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "573": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "573",
+      "name": "Hematite",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "574": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "574",
+      "name": "Mudstone",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "575": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "575",
+      "name": "Obsidian",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "576": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "576",
+      "name": "Slate",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "577": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "577",
+      "name": "Fairy Stone",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "578": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "578",
+      "name": "Star Shards",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "579": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "579",
+      "name": "Prehistoric Scapula",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "58": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "58",
+      "name": "Snowy Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "580": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "580",
+      "name": "Prehistoric Tibia",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "581": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "581",
+      "name": "Prehistoric Skull",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "582": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "582",
+      "name": "Skeletal Hand",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "583": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "583",
+      "name": "Prehistoric Rib",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "584": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "584",
+      "name": "Prehistoric Vertebra",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "585": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "585",
+      "name": "Skeletal Tail",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "586": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "586",
+      "name": "Nautilus Fossil",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "587": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "587",
+      "name": "Amphibian Fossil",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "588": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "588",
+      "name": "Palm Fossil",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "589": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "589",
+      "name": "Trilobite",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "590": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "590",
+      "name": "Artifact Spot",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "591": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "591",
+      "name": "Tulip",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "593": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "593",
+      "name": "Summer Spangle",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "595": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "595",
+      "name": "Fairy Rose",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "597": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "597",
+      "name": "Blue Jazz",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "599": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "599",
+      "name": "Sprinkler",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "6": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "6",
+      "name": "Jade Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "60": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "60",
+      "name": "Emerald",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "604": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "604",
+      "name": "Plum Pudding",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "605": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "605",
+      "name": "Artichoke Dip",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "606": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "606",
+      "name": "Stir Fry",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "607": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "607",
+      "name": "Roasted Hazelnuts",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "608": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "608",
+      "name": "Pumpkin Pie",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "609": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "609",
+      "name": "Radish Salad",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "610": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "610",
+      "name": "Fruit Salad",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "611": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "611",
+      "name": "Blackberry Cobbler",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "612": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "612",
+      "name": "Cranberry Candy",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "613": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "613",
+      "name": "Apple",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "614": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "614",
+      "name": "Green Tea",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "618": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "618",
+      "name": "Bruschetta",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "62": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "62",
+      "name": "Aquamarine",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "621": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "621",
+      "name": "Quality Sprinkler",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "628": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "628",
+      "name": "Cherry Sapling",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "629": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "629",
+      "name": "Apricot Sapling",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "630": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "630",
+      "name": "Orange Sapling",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "631": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "631",
+      "name": "Peach Sapling",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "632": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "632",
+      "name": "Pomegranate Sapling",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "633": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "633",
+      "name": "Apple Sapling",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "634": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "634",
+      "name": "Apricot",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "635": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "635",
+      "name": "Orange",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "636": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "636",
+      "name": "Peach",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "637": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "637",
+      "name": "Pomegranate",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "638": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "638",
+      "name": "Cherry",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "64": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "64",
+      "name": "Ruby",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "645": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "645",
+      "name": "Iridium Sprinkler",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "648": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "648",
+      "name": "Coleslaw",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "649": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "649",
+      "name": "Fiddlehead Risotto",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "651": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "651",
+      "name": "Poppyseed Muffin",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "66": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "66",
+      "name": "Amethyst",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "668": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "668",
+      "name": "Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "670": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "670",
+      "name": "Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "674": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "674",
+      "name": "Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "675": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "675",
+      "name": "Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "676": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "676",
+      "name": "Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "677": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "677",
+      "name": "Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "678": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "678",
+      "name": "Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "679": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "679",
+      "name": "Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "68": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "68",
+      "name": "Topaz",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "680": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "680",
+      "name": "Green Slime Egg",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "681": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "681",
+      "name": "Rain Totem",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "682": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "682",
+      "name": "Mutant Carp",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "684": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "684",
+      "name": "Bug Meat",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "685": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "685",
+      "name": "Bait",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "686": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "686",
+      "name": "Spinner",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "687": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "687",
+      "name": "Dressed Spinner",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "688": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "688",
+      "name": "Warp Totem: Farm",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "689": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "689",
+      "name": "Warp Totem: Mountains",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "69": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "69",
+      "name": "Banana Sapling",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "690": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "690",
+      "name": "Warp Totem: Beach",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "691": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "691",
+      "name": "Barbed Hook",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "692": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "692",
+      "name": "Lead Bobber",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "693": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "693",
+      "name": "Treasure Hunter",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "694": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "694",
+      "name": "Trap Bobber",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "695": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "695",
+      "name": "Cork Bobber",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "698": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "698",
+      "name": "Sturgeon",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "699": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "699",
+      "name": "Tiger Trout",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "70": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "70",
+      "name": "Jade",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "700": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "700",
+      "name": "Bullhead",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "701": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "701",
+      "name": "Tilapia",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "702": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "702",
+      "name": "Chub",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "703": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "703",
+      "name": "Magnet",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "704": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "704",
+      "name": "Dorado",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "705": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "705",
+      "name": "Albacore",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "706": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "706",
+      "name": "Shad",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "707": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "707",
+      "name": "Lingcod",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "708": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "708",
+      "name": "Halibut",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "709": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "709",
+      "name": "Hardwood",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "71": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "71",
+      "name": "Trimmed Lucky Purple Shorts",
+      "object_type": "Quest",
+      "price": 0
+    },
+    "710": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "710",
+      "name": "Crab Pot",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "715": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "715",
+      "name": "Lobster",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "716": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "716",
+      "name": "Crayfish",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "717": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "717",
+      "name": "Crab",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "718": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "718",
+      "name": "Cockle",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "719": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "719",
+      "name": "Mussel",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "72": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "72",
+      "name": "Diamond",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "720": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "720",
+      "name": "Shrimp",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "721": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "721",
+      "name": "Snail",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "722": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "722",
+      "name": "Periwinkle",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "723": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "723",
+      "name": "Oyster",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "724": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "724",
+      "name": "Maple Syrup",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "725": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "725",
+      "name": "Oak Resin",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "726": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "726",
+      "name": "Pine Tar",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "727": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "727",
+      "name": "Chowder",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "728": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "728",
+      "name": "Fish Stew",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "729": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "729",
+      "name": "Escargot",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "73": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "73",
+      "name": "Golden Walnut",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "730": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "730",
+      "name": "Lobster Bisque",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "731": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "731",
+      "name": "Maple Bar",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "732": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "732",
+      "name": "Crab Cakes",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "733": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "733",
+      "name": "Shrimp Cocktail",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "734": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "734",
+      "name": "Woodskip",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "74": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "74",
+      "name": "Prismatic Shard",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "742": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "742",
+      "name": "Haley's Lost Bracelet",
+      "object_type": "Quest",
+      "price": 0
+    },
+    "745": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "745",
+      "name": "Strawberry Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "746": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "746",
+      "name": "Jack-O-Lantern",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "747": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "747",
+      "name": "Rotten Plant",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "748": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "748",
+      "name": "Rotten Plant",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "749": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "749",
+      "name": "Omni Geode",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "75": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "75",
+      "name": "Geode Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "750": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "750",
+      "name": "Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "751": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "751",
+      "name": "Copper Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "76": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "76",
+      "name": "Frozen Geode Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "760": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "760",
+      "name": "Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "762": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "762",
+      "name": "Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "764": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "764",
+      "name": "Gold Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "765": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "765",
+      "name": "Iridium Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "766": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "766",
+      "name": "Slime",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "767": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "767",
+      "name": "Bat Wing",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "768": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "768",
+      "name": "Solar Essence",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "769": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "769",
+      "name": "Void Essence",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "77": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "77",
+      "name": "Magma Geode Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "770": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "770",
+      "name": "Mixed Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "771": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "771",
+      "name": "Fiber",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "772": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "772",
+      "name": "Oil of Garlic",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "773": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "773",
+      "name": "Life Elixir",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "774": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "774",
+      "name": "Wild Bait",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "775": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "775",
+      "name": "Glacierfish",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "78": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "78",
+      "name": "Cave Carrot",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "784": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "784",
+      "name": "Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "785": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "785",
+      "name": "Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "786": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "786",
+      "name": "Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "787": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "787",
+      "name": "Battery Pack",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "788": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "788",
+      "name": "Lost Axe",
+      "object_type": "Quest",
+      "price": 0
+    },
+    "789": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "789",
+      "name": "Lucky Purple Shorts",
+      "object_type": "Quest",
+      "price": 0
+    },
+    "79": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "79",
+      "name": "Secret Note",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "790": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "790",
+      "name": "Berry Basket",
+      "object_type": "Quest",
+      "price": 0
+    },
+    "791": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "791",
+      "name": "Golden Coconut",
+      "object_type": "Quest",
+      "price": 0
+    },
+    "792": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "792",
+      "name": "Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "793": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "793",
+      "name": "Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "794": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "794",
+      "name": "Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "795": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "795",
+      "name": "Void Salmon",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "796": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "796",
+      "name": "Slimejack",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "797": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "797",
+      "name": "Pearl",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "798": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "798",
+      "name": "Midnight Squid",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "799": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "799",
+      "name": "Spook Fish",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "8": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "8",
+      "name": "Amethyst Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "80": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "80",
+      "name": "Quartz",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "800": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "800",
+      "name": "Blobfish",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "801": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "801",
+      "name": "Wedding Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "802": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "802",
+      "name": "Cactus Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "803": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "803",
+      "name": "Iridium Milk",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "805": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "805",
+      "name": "Tree Fertilizer",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "807": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "807",
+      "name": "Dinosaur Mayonnaise",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "808": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "808",
+      "name": "Void Ghost Pendant",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "809": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "809",
+      "name": "Movie Ticket",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "810": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "810",
+      "name": "Crabshell Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "811": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "811",
+      "name": "Napalm Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "812": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "812",
+      "name": "Roe",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "814": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "814",
+      "name": "Squid Ink",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "815": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "815",
+      "name": "Tea Leaves",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "816": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "816",
+      "name": "Fossil Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "817": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "817",
+      "name": "Fossil Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "818": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "818",
+      "name": "Clay Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "819": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "819",
+      "name": "Omni Geode Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "82": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "82",
+      "name": "Fire Quartz",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "820": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "820",
+      "name": "Fossilized Skull",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "821": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "821",
+      "name": "Fossilized Spine",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "822": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "822",
+      "name": "Fossilized Tail",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "823": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "823",
+      "name": "Fossilized Leg",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "824": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "824",
+      "name": "Fossilized Ribs",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "825": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "825",
+      "name": "Snake Skull",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "826": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "826",
+      "name": "Snake Vertebrae",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "827": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "827",
+      "name": "Mummified Bat",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "828": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "828",
+      "name": "Mummified Frog",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "829": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "829",
+      "name": "Ginger",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "830": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "830",
+      "name": "Taro Root",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "831": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "831",
+      "name": "Taro Tuber",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "832": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "832",
+      "name": "Pineapple",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "833": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "833",
+      "name": "Pineapple Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "834": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "834",
+      "name": "Mango",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "835": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "835",
+      "name": "Mango Sapling",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "836": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "836",
+      "name": "Stingray",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "837": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "837",
+      "name": "Lionfish",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "838": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "838",
+      "name": "Blue Discus",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "839": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "839",
+      "name": "Thorns Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "84": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "84",
+      "name": "Frozen Tear",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "840": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "840",
+      "name": "Rustic Plank Floor",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "841": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "841",
+      "name": "Stone Walkway Floor",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "842": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "842",
+      "name": "Journal Scrap",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "843": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "843",
+      "name": "Cinder Shard Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "844": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "844",
+      "name": "Cinder Shard Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "845": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "845",
+      "name": "Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "846": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "846",
+      "name": "Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "847": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "847",
+      "name": "Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "848": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "848",
+      "name": "Cinder Shard",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "849": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "849",
+      "name": "Copper Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "850": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "850",
+      "name": "Iron Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "851": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "851",
+      "name": "Magma Cap",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "852": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "852",
+      "name": "Dragon Tooth",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "856": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "856",
+      "name": "Curiosity Lure",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "857": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "857",
+      "name": "Tiger Slime Egg",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "858": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "858",
+      "name": "Qi Gem",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "859": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "859",
+      "name": "Lucky Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "86": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "86",
+      "name": "Earth Crystal",
+      "object_type": "Minerals",
+      "price": 0
+    },
+    "860": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "860",
+      "name": "Hot Java Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "861": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "861",
+      "name": "Protection Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "862": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "862",
+      "name": "Soul Sapper Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "863": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "863",
+      "name": "Phoenix Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "864": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "864",
+      "name": "War Memento",
+      "object_type": "Quest",
+      "price": 0
+    },
+    "865": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "865",
+      "name": "Gourmet Tomato Salt",
+      "object_type": "Quest",
+      "price": 0
+    },
+    "866": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "866",
+      "name": "Stardew Valley Rose",
+      "object_type": "Quest",
+      "price": 0
+    },
+    "867": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "867",
+      "name": "Advanced TV Remote",
+      "object_type": "Quest",
+      "price": 0
+    },
+    "868": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "868",
+      "name": "Arctic Shard",
+      "object_type": "Quest",
+      "price": 0
+    },
+    "869": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "869",
+      "name": "Wriggling Worm",
+      "object_type": "Quest",
+      "price": 0
+    },
+    "870": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "870",
+      "name": "Pirate's Locket",
+      "object_type": "Quest",
+      "price": 0
+    },
+    "872": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "872",
+      "name": "Fairy Dust",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "873": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "873",
+      "name": "Piña Colada",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "874": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "874",
+      "name": "Bug Steak",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "875": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "875",
+      "name": "Ectoplasm",
+      "object_type": "Quest",
+      "price": 0
+    },
+    "876": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "876",
+      "name": "Prismatic Jelly",
+      "object_type": "Quest",
+      "price": 0
+    },
+    "877": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "877",
+      "name": "Quality Bobber",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "879": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "879",
+      "name": "Monster Musk",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "88": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "88",
+      "name": "Coconut",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "880": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "880",
+      "name": "Combined Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "881": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "881",
+      "name": "Bone Fragment",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "882": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "882",
+      "name": "Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "883": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "883",
+      "name": "Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "884": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "884",
+      "name": "Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "885": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "885",
+      "name": "Fiber Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "886": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "886",
+      "name": "Warp Totem: Island",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "887": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "887",
+      "name": "Immunity Band",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "888": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "888",
+      "name": "Glowstone Ring",
+      "object_type": "Ring",
+      "price": 0
+    },
+    "889": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "889",
+      "name": "Qi Fruit",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "890": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "890",
+      "name": "Qi Bean",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "891": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "891",
+      "name": "Mushroom Tree Seed",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "892": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "892",
+      "name": "Warp Totem: Qi's Arena",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "893": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "893",
+      "name": "Fireworks (Red)",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "894": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "894",
+      "name": "Fireworks (Purple)",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "895": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "895",
+      "name": "Fireworks (Green)",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "896": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "896",
+      "name": "Galaxy Soul",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "897": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "897",
+      "name": "Pierre's Missing Stocklist",
+      "object_type": "Quest",
+      "price": 0
+    },
+    "898": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "898",
+      "name": "Son of Crimsonfish",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "899": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "899",
+      "name": "Ms. Angler",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "90": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "90",
+      "name": "Cactus Fruit",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "900": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "900",
+      "name": "Legend II",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "901": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "901",
+      "name": "Radioactive Carp",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "902": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "902",
+      "name": "Glacierfish Jr.",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "903": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "903",
+      "name": "Ginger Ale",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "904": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "904",
+      "name": "Banana Pudding",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "905": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "905",
+      "name": "Mango Sticky Rice",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "906": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "906",
+      "name": "Poi",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "907": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "907",
+      "name": "Tropical Curry",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "908": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "908",
+      "name": "Magic Bait",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "909": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "909",
+      "name": "Radioactive Ore",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "91": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "91",
+      "name": "Banana",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "910": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "910",
+      "name": "Radioactive Bar",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "911": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "911",
+      "name": "Horse Flute",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "913": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "913",
+      "name": "Enricher",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "915": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "915",
+      "name": "Pressure Nozzle",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "917": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "917",
+      "name": "Qi Seasoning",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "918": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "918",
+      "name": "Hyper Speed-Gro",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "919": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "919",
+      "name": "Deluxe Fertilizer",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "92": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "92",
+      "name": "Sap",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "920": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "920",
+      "name": "Deluxe Retaining Soil",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "921": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "921",
+      "name": "Squid Ink Ravioli",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "922": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "922",
+      "name": "SupplyCrate",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "923": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "923",
+      "name": "SupplyCrate",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "924": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "924",
+      "name": "SupplyCrate",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "925": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "925",
+      "name": "Slime Crate",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "926": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "926",
+      "name": "Cookout Kit",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "927": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "927",
+      "name": "Camping Stove",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "928": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "928",
+      "name": "Golden Egg",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "929": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "929",
+      "name": "Hedge",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "93": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "93",
+      "name": "Torch",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "930": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "930",
+      "name": "???",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "94": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "94",
+      "name": "Spirit Torch",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "95": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "95",
+      "name": "Radioactive Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "96": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "96",
+      "name": "Dwarf Scroll I",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "97": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "97",
+      "name": "Dwarf Scroll II",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "98": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "98",
+      "name": "Dwarf Scroll III",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "99": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "99",
+      "name": "Dwarf Scroll IV",
+      "object_type": "Arch",
+      "price": 0
+    },
+    "BasicCoalNode0": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "BasicCoalNode0",
+      "name": "Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "BasicCoalNode1": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "BasicCoalNode1",
+      "name": "Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "BlueGrassStarter": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "BlueGrassStarter",
+      "name": "Blue Grass Starter",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "Book_AnimalCatalogue": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Book_AnimalCatalogue",
+      "name": "Animal Catalogue",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "Book_Artifact": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Book_Artifact",
+      "name": "Treasure Appraisal Guide",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "Book_Bombs": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Book_Bombs",
+      "name": "Dwarvish Safety Manual",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "Book_Crabbing": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Book_Crabbing",
+      "name": "The Art O' Crabbing",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "Book_Defense": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Book_Defense",
+      "name": "Jack Be Nimble, Jack Be Thick",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "Book_Diamonds": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Book_Diamonds",
+      "name": "The Diamond Hunter",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "Book_Friendship": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Book_Friendship",
+      "name": "Friendship 101",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "Book_Grass": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Book_Grass",
+      "name": "Ol' Slitherlegs",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "Book_Horse": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Book_Horse",
+      "name": "Horse: The Book",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "Book_Marlon": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Book_Marlon",
+      "name": "Mapping Cave Systems",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "Book_Mystery": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Book_Mystery",
+      "name": "Book of Mysteries",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "Book_PriceCatalogue": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Book_PriceCatalogue",
+      "name": "Price Catalogue",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "Book_QueenOfSauce": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Book_QueenOfSauce",
+      "name": "Queen Of Sauce Cookbook",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "Book_Roe": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Book_Roe",
+      "name": "Jewels Of The Sea",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "Book_Speed": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Book_Speed",
+      "name": "Way Of The Wind pt. 1",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "Book_Speed2": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Book_Speed2",
+      "name": "Way Of The Wind pt. 2",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "Book_Trash": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Book_Trash",
+      "name": "The Alleyway Buffet",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "Book_Void": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Book_Void",
+      "name": "Monster Compendium",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "Book_WildSeeds": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Book_WildSeeds",
+      "name": "Raccoon Journal",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "Book_Woodcutting": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Book_Woodcutting",
+      "name": "Woody's Secret",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "Broccoli": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Broccoli",
+      "name": "Broccoli",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "BroccoliSeeds": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "BroccoliSeeds",
+      "name": "Broccoli Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "ButterflyPowder": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "ButterflyPowder",
+      "name": "Butterfly Powder",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "CalicoEgg": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "CalicoEgg",
+      "name": "Calico Egg",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "CalicoEggStone_0": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "CalicoEggStone_0",
+      "name": "Calico Egg Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "CalicoEggStone_1": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "CalicoEggStone_1",
+      "name": "Calico Egg Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "CalicoEggStone_2": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "CalicoEggStone_2",
+      "name": "Calico Egg Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "Carrot": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Carrot",
+      "name": "Carrot",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "CarrotSeeds": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "CarrotSeeds",
+      "name": "Carrot Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "CaveJelly": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "CaveJelly",
+      "name": "Cave Jelly",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "ChallengeBait": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "ChallengeBait",
+      "name": "Challenge Bait",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "DeluxeBait": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "DeluxeBait",
+      "name": "Deluxe Bait",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "DriedFruit": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "DriedFruit",
+      "name": "Dried",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "DriedMushrooms": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "DriedMushrooms",
+      "name": "Dried",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "FarAwayStone": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "FarAwayStone",
+      "name": "Far Away Stone",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "Goby": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Goby",
+      "name": "Goby",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "GoldCoin": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "GoldCoin",
+      "name": "Gold Coin",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "GoldenAnimalCracker": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "GoldenAnimalCracker",
+      "name": "Golden Animal Cracker",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "GoldenBobber": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "GoldenBobber",
+      "name": "Golden Bobber",
+      "object_type": "Quest",
+      "price": 0
+    },
+    "GoldenMysteryBox": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "GoldenMysteryBox",
+      "name": "Golden Mystery Box",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "GreenRainWeeds0": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "GreenRainWeeds0",
+      "name": "Green Rain Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "GreenRainWeeds1": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "GreenRainWeeds1",
+      "name": "Green Rain Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "GreenRainWeeds2": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "GreenRainWeeds2",
+      "name": "Green Rain Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "GreenRainWeeds3": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "GreenRainWeeds3",
+      "name": "Green Rain Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "GreenRainWeeds4": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "GreenRainWeeds4",
+      "name": "Green Rain Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "GreenRainWeeds5": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "GreenRainWeeds5",
+      "name": "Green Rain Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "GreenRainWeeds6": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "GreenRainWeeds6",
+      "name": "Green Rain Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "GreenRainWeeds7": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "GreenRainWeeds7",
+      "name": "Green Rain Weeds",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "MixedFlowerSeeds": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "MixedFlowerSeeds",
+      "name": "Mixed Flower Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "Moss": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Moss",
+      "name": "Moss",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "MossSoup": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "MossSoup",
+      "name": "Moss Soup",
+      "object_type": "Cooking",
+      "price": 0
+    },
+    "MossySeed": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "MossySeed",
+      "name": "Mossy Seed",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "MysteryBox": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "MysteryBox",
+      "name": "Mystery Box",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "MysticSyrup": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "MysticSyrup",
+      "name": "Mystic Syrup",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "MysticTreeSeed": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "MysticTreeSeed",
+      "name": "Mystic Tree Seed",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "PetLicense": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "PetLicense",
+      "name": "Pet License",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "PotOfGold": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "PotOfGold",
+      "name": "Stone",
+      "object_type": "interactive",
+      "price": 0
+    },
+    "Powdermelon": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Powdermelon",
+      "name": "Powdermelon",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "PowdermelonSeeds": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "PowdermelonSeeds",
+      "name": "Powdermelon Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "PrizeTicket": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "PrizeTicket",
+      "name": "Prize Ticket",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "PurpleBook": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "PurpleBook",
+      "name": "Book Of Stars",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "Raisins": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "Raisins",
+      "name": "Raisins",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "RiverJelly": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "RiverJelly",
+      "name": "River Jelly",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "SeaJelly": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "SeaJelly",
+      "name": "Sea Jelly",
+      "object_type": "Fish",
+      "price": 0
+    },
+    "SeedSpot": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "SeedSpot",
+      "name": "Artifact Spot",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "SkillBook_0": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "SkillBook_0",
+      "name": "Stardew Valley Almanac",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "SkillBook_1": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "SkillBook_1",
+      "name": "Bait And Bobber",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "SkillBook_2": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "SkillBook_2",
+      "name": "Woodcutter's Weekly",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "SkillBook_3": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "SkillBook_3",
+      "name": "Mining Monthly",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "SkillBook_4": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "SkillBook_4",
+      "name": "Combat Quarterly",
+      "object_type": "asdf",
+      "price": 0
+    },
+    "SmokedFish": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "SmokedFish",
+      "name": "Smoked",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "SonarBobber": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "SonarBobber",
+      "name": "Sonar Bobber",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "SpecificBait": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "SpecificBait",
+      "name": "Bait",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "StardropTea": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "StardropTea",
+      "name": "Stardrop Tea",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "SummerSquash": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "SummerSquash",
+      "name": "Summer Squash",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "SummerSquashSeeds": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "SummerSquashSeeds",
+      "name": "Summer Squash Seeds",
+      "object_type": "Seeds",
+      "price": 0
+    },
+    "TentKit": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "TentKit",
+      "name": "Tent Kit",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "TreasureTotem": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "TreasureTotem",
+      "name": "Treasure Totem",
+      "object_type": "Crafting",
+      "price": 0
+    },
+    "TroutDerbyTag": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "TroutDerbyTag",
+      "name": "Golden Tag",
+      "object_type": "Basic",
+      "price": 0
+    },
+    "VolcanoCoalNode0": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "VolcanoCoalNode0",
+      "name": "Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "VolcanoCoalNode1": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "VolcanoCoalNode1",
+      "name": "Stone",
+      "object_type": "Litter",
+      "price": 0
+    },
+    "VolcanoGoldNode": {
+      "category": 0,
+      "edibility": -300,
+      "has_sprite": true,
+      "id": "VolcanoGoldNode",
+      "name": "Gold Stone",
+      "object_type": "Litter",
+      "price": 0
+    }
+  },
+  "schema_version": 2,
+  "skipped": 0,
+  "source": "data/items_raw/ (see SOURCES.md)",
+  "sprites_written": 989
+}

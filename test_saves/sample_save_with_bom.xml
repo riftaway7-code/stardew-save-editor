@@ -1,0 +1,35 @@
+eff<?xml version="1.0" encoding="utf-8"?>
+<Game>
+  <player>
+    <name>Farmer</name>
+    <farmName>OakFarm</farmName>
+    <money>500</money>
+    <totalMoneyEarned>1500</totalMoneyEarned>
+    <stamina>270</stamina>
+    <maxStamina>270</maxStamina>
+    <health>100</health>
+    <maxHealth>100</maxHealth>
+    <qiGems>0</qiGems>
+    <clubCoins>0</clubCoins>
+    <items>
+      <Item xsi:type="Object">
+        <name>Parsnip</name>
+        <itemId>24</itemId>
+        <stack>10</stack>
+        <quality>0</quality>
+      </Item>
+      <Item xsi:nil="true" />
+    </items>
+    <friendshipData>
+      <item>
+        <key>
+          <string>Abigail</string>
+        </key>
+        <value>
+          <Points>1250</Points>
+          <Status>Friendly</Status>
+        </value>
+      </item>
+    </friendshipData>
+  </player>
+</Game>

@@ -1,0 +1,207 @@
+/* Stardew-inspired theme: warm wood/parchment palette, blocky pixel-bevel
+borders (no border-radius, mismatched top/left vs bottom/right border
+colors to fake a carved-wood 3D edge), Pixelify Sans throughout. This is a
+color/shape homage, not a reproduction of the game's actual UI art - see
+theme/fonts/SOURCES.md for why (no legal access to the real sprite sheet). */
+
+* {
+    font-family: "Pixelify Sans";
+    font-size: 14px;
+    color: #4a2f1c;
+}
+
+QMainWindow, QDialog, QWidget#central {
+    background-color: #dab876;
+}
+
+QWidget {
+    background-color: transparent;
+}
+
+QLabel {
+    color: #4a2f1c;
+    background-color: transparent;
+}
+
+/* -- Panels: the device bar, tab content area, bottom bar - give them a
+   parchment card look with a carved wood-bevel border -- */
+QTabWidget::pane {
+    background-color: #fdf0d5;
+    border: 4px solid #6b4423;
+    border-top-color: #8b5a2b;
+    border-left-color: #8b5a2b;
+    border-bottom-color: #3d2712;
+    border-right-color: #3d2712;
+    top: -1px;
+}
+
+QTabBar::tab {
+    background-color: #c99b5c;
+    border: 3px solid #6b4423;
+    border-top-color: #8b5a2b;
+    border-left-color: #8b5a2b;
+    border-bottom-color: #3d2712;
+    border-right-color: #3d2712;
+    border-bottom: none;
+    padding: 8px 18px;
+    margin-right: 2px;
+    color: #3d2712;
+    font-weight: bold;
+}
+
+QTabBar::tab:selected {
+    background-color: #fdf0d5;
+    color: #7a3b12;
+}
+
+QTabBar::tab:hover:!selected {
+    background-color: #e0b878;
+}
+
+/* -- Buttons: chunky pixel-bevel, pressed state inverts the bevel -- */
+QPushButton {
+    background-color: #e8a33d;
+    border: 3px solid #6b4423;
+    border-top-color: #ffcf7a;
+    border-left-color: #ffcf7a;
+    border-bottom-color: #7a4a12;
+    border-right-color: #7a4a12;
+    padding: 8px 16px;
+    color: #4a2500;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #f2b555;
+}
+
+QPushButton:pressed {
+    background-color: #d69128;
+    border-top-color: #7a4a12;
+    border-left-color: #7a4a12;
+    border-bottom-color: #ffcf7a;
+    border-right-color: #ffcf7a;
+}
+
+QPushButton:disabled {
+    background-color: #c9b89a;
+    border-color: #8a7a5c;
+    color: #8a7a5c;
+}
+
+/* -- QToolButton: same pixel-bevel language as QPushButton but tighter
+   padding, used for the small inventory-grid slot buttons -- */
+QToolButton {
+    background-color: #e8a33d;
+    border: 3px solid #6b4423;
+    border-top-color: #ffcf7a;
+    border-left-color: #ffcf7a;
+    border-bottom-color: #7a4a12;
+    border-right-color: #7a4a12;
+    padding: 2px;
+    color: #4a2500;
+    font-weight: bold;
+}
+
+QToolButton:hover {
+    background-color: #f2b555;
+}
+
+QToolButton:pressed {
+    background-color: #d69128;
+    border-top-color: #7a4a12;
+    border-left-color: #7a4a12;
+    border-bottom-color: #ffcf7a;
+    border-right-color: #ffcf7a;
+}
+
+QToolButton:disabled {
+    background-color: #c9b89a;
+    border-color: #8a7a5c;
+    color: #8a7a5c;
+}
+
+/* -- Inputs -- */
+QLineEdit, QSpinBox, QComboBox {
+    background-color: #fffaf0;
+    border: 3px solid #6b4423;
+    border-top-color: #3d2712;
+    border-left-color: #3d2712;
+    border-bottom-color: #ac8a5c;
+    border-right-color: #ac8a5c;
+    padding: 4px 6px;
+    color: #4a2f1c;
+    selection-background-color: #e8a33d;
+}
+
+QComboBox::drop-down {
+    border: none;
+    width: 22px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #fdf0d5;
+    border: 2px solid #6b4423;
+    selection-background-color: #e8a33d;
+    color: #4a2f1c;
+}
+
+/* -- Lists / tables (item picker, relationships) -- */
+QListWidget, QTableWidget {
+    background-color: #fffaf0;
+    border: 3px solid #6b4423;
+    border-top-color: #3d2712;
+    border-left-color: #3d2712;
+    border-bottom-color: #ac8a5c;
+    border-right-color: #ac8a5c;
+    color: #4a2f1c;
+    gridline-color: #d8c39a;
+}
+
+QListWidget::item:selected, QTableWidget::item:selected {
+    background-color: #e8a33d;
+    color: #3d2712;
+}
+
+QHeaderView::section {
+    background-color: #c99b5c;
+    color: #3d2712;
+    border: 2px solid #6b4423;
+    padding: 4px;
+    font-weight: bold;
+}
+
+/* -- Sliders (relationship hearts) -- */
+QSlider::groove:horizontal {
+    height: 8px;
+    background-color: #ac8a5c;
+    border: 2px solid #3d2712;
+}
+
+QSlider::handle:horizontal {
+    width: 18px;
+    margin: -6px 0;
+    background-color: #e8a33d;
+    border: 2px solid #6b4423;
+}
+
+QSlider::sub-page:horizontal {
+    background-color: #d64545;
+    border: 2px solid #3d2712;
+}
+
+/* -- Scrollbars: keep them simple/blocky, not skeuomorphic wood -- */
+QScrollBar:vertical, QScrollBar:horizontal {
+    background-color: #c99b5c;
+    border: 1px solid #6b4423;
+}
+
+QScrollBar::handle {
+    background-color: #8b5a2b;
+    border: 1px solid #3d2712;
+    min-height: 20px;
+}
+
+QMessageBox {
+    background-color: #fdf0d5;
+}

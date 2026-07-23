@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+.DS_Store
+
+# local snapshots/backups of real save data - never commit user save files
+backups/
+*.app
+
+# real personal save data pulled from a live device for local testing -
+# never commit actual player save files, even as "fixtures"
+tests/fixtures/sample_save/
