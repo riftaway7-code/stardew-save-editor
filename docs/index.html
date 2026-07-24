@@ -74,7 +74,10 @@
   .hidden{display:none}
   .filechip{display:inline-flex; align-items:center; gap:8px; background:var(--green-dark); color:#fff; padding:6px 12px; border-radius:20px; font-size:13px; margin-bottom:14px}
   .filechip button{background:none; border:none; color:#fff; cursor:pointer; font-size:15px}
-  .adslot{border:3px dotted var(--wood-light); border-radius:10px; background:rgba(255,255,255,.25); min-height:90px; display:flex; align-items:center; justify-content:center; color:var(--wood); font-size:13px; text-align:center; margin:0 auto}
+  .adslot{display:flex; flex-direction:column; align-items:center; justify-content:center; margin:0 auto; max-width:100%; overflow:hidden}
+  .adslot iframe{border:0; display:block; max-width:100%}
+  .adlabel{font-size:10px; letter-spacing:.09em; text-transform:uppercase; color:var(--wood); opacity:.6; margin-bottom:6px}
+  .adpanel{padding:12px}
 
   /* inventory */
   .additem{display:flex; gap:10px; flex-wrap:wrap; align-items:flex-end; background:rgba(255,255,255,.35); border:3px solid var(--wood); border-radius:10px; padding:12px; margin-bottom:14px}
@@ -120,8 +123,8 @@
     <span class="tag">No download · No install · Your save never leaves your device</span>
   </header>
 
-  <!-- AD SLOT (top) -->
-  <div class="panel"><div class="adslot">ad space (top banner)</div></div>
+  <!-- AD SLOT (top) — leaderboard on desktop, mobile banner on phones -->
+  <div class="panel adpanel"><div class="adslot" data-ad="top"></div></div>
 
   <!-- UPLOAD -->
   <section class="panel" id="uploadPanel">
@@ -206,7 +209,7 @@
   </section>
 
   <!-- AD SLOT (mid) -->
-  <div class="panel"><div class="adslot">ad space (in-content)</div></div>
+  <div class="panel adpanel"><div class="adslot" data-ad="mid"></div></div>
 
   <!-- INSTRUCTIONS -->
   <section class="panel">
@@ -337,6 +340,60 @@ svse-tool\Scripts\pip install pymobiledevice3</pre>
     <a href="privacy.html">Privacy Policy</a>
   </footer>
 </div>
+
+<!-- Adsterra banners. Each unit is rendered inside its own srcdoc iframe: the
+     network's invoke.js reads a GLOBAL `atOptions`, so two units in the same
+     document would overwrite each other's config and both render the same size.
+     A separate document per unit gives each its own global scope. -->
+<script>
+(() => {
+  "use strict";
+  const UNITS = {
+    banner300x250: { key: "9d348926da6d624dac7a427fe5d791c1", w: 300, h: 250 },
+    banner728x90:  { key: "e07bb14a9d1668911902821e83e08401", w: 728, h: 90  },
+    banner320x50:  { key: "31d6c886709a33f2dab0a333a9631c80", w: 320, h: 50  }
+  };
+
+  function frameFor(u){
+    const f = document.createElement("iframe");
+    f.width = u.w; f.height = u.h;
+    f.scrolling = "no"; f.setAttribute("frameborder", "0");
+    f.setAttribute("title", "Advertisement");
+    f.setAttribute("loading", "lazy");
+    f.style.cssText = "border:0;display:block;width:" + u.w + "px;height:" + u.h + "px;max-width:100%";
+    // Split the closing tags so this markup can't terminate the outer script.
+    const s = "<scr" + "ipt>";
+    const e = "</scr" + "ipt>";
+    f.srcdoc =
+      '<!doctype html><html><head><meta charset="utf-8">' +
+      "<style>html,body{margin:0;padding:0;overflow:hidden;background:transparent}</style>" +
+      "</head><body>" +
+      s + 'var atOptions=' + JSON.stringify({
+        key: u.key, format: "iframe", height: u.h, width: u.w, params: {}
+      }) + ";" + e +
+      s.replace(">", ' src="https://www.highperformanceformat.com/' + u.key + '/invoke.js">') + e +
+      "</body></html>";
+    return f;
+  }
+
+  function mount(el, u){
+    const label = document.createElement("div");
+    label.className = "adlabel";
+    label.textContent = "Advertisement";
+    el.appendChild(label);
+    el.appendChild(frameFor(u));
+  }
+
+  // Size is chosen once, at load. Never re-render an ad on resize — repeated
+  // loads of the same unit count as invalid impressions.
+  const wide = window.innerWidth >= 760;
+  document.querySelectorAll("[data-ad]").forEach(el => {
+    const slot = el.getAttribute("data-ad");
+    if (slot === "top")      mount(el, wide ? UNITS.banner728x90 : UNITS.banner320x50);
+    else if (slot === "mid") mount(el, UNITS.banner300x250);
+  });
+})();
+</script>
 
 <script src="items.js"></script>
 <script>
