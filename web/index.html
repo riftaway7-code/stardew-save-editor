@@ -141,6 +141,7 @@
     <div class="tabs">
       <div class="tab active" data-tab="stats">💰 Stats</div>
       <div class="tab" data-tab="inv">🎒 Inventory</div>
+      <div class="tab" data-tab="chests">🧰 Chests</div>
       <div class="tab" data-tab="npc">❤️ Friendships</div>
     </div>
 
@@ -164,6 +165,32 @@
         <button class="btn small" id="addBtn">➕ Add</button>
       </div>
       <div class="slotlist" id="slots"></div>
+    </div>
+
+    <div class="tabpane" id="pane-chests">
+      <div class="grid">
+        <div style="min-width:220px">
+          <h2 style="margin-top:0">Chests</h2>
+          <div id="chestList" style="display:flex;flex-direction:column;gap:8px;max-height:420px;overflow:auto;padding-right:6px"></div>
+        </div>
+        <div>
+          <h2 style="margin-top:0">Selected Chest</h2>
+          <div class="additem" id="addChestItemBox">
+            <div class="field">
+              <label>Add item to chest</label>
+              <input id="chestItemSearch" list="itemlist" placeholder="Search 800+ items…" autocomplete="off">
+            </div>
+            <div class="field small"><label>Qty</label><input id="addChestStack" type="number" min="1" max="999" value="1"></div>
+            <div class="field small"><label>Quality</label>
+              <select id="addChestQuality">
+                <option value="0">Normal</option><option value="1">Silver</option><option value="2">Gold</option><option value="4">Iridium</option>
+              </select>
+            </div>
+            <button class="btn small" id="addChestBtn">➕ Add</button>
+          </div>
+          <div class="slotlist" id="chestSlots"></div>
+        </div>
+      </div>
     </div>
 
     <div class="tabpane" id="pane-npc">
@@ -253,26 +280,59 @@
   }
 
   // ---------- inventory model ----------
+  // Is position p the start of a real <tag ...> open (next char is space/>//)?
+  function isTagAt(text, p, tag){
+    if(!text.startsWith(tag, p)) return false;
+    const c = text[p + tag.length];
+    return c === undefined || c === ">" || c === "/" || c === " " || c === "\t" || c === "\n" || c === "\r";
+  }
+  // Given innerStart just after an opening "<items>", find the matching
+  // "</items>", counting nested <items>...</items> (a chest stored inside
+  // another container has its own <items>). Returns index of the matching
+  // "</items>", or -1. Depth-correct so regions are never truncated mid-nest.
+  function matchItemsClose(text, innerStart){
+    let depth = 0, j = innerStart; const n = text.length;
+    while(j < n){
+      if(isTagAt(text, j, "<items")){
+        const te = text.indexOf(">", j); if(te === -1) return -1;
+        if(text[te-1] !== "/") depth++;         // <items> opens; <items /> doesn't
+        j = te + 1;
+      } else if(text.startsWith("</items>", j)){
+        if(depth === 0) return j;
+        depth--; j += 8;
+      } else j++;
+    }
+    return -1;
+  }
   function itemsBounds(text){
     const p = text.search(/<player[\s>]/); if(p===-1) return null;
     const io = text.indexOf("<items>", p); if(io===-1) return null;
     const innerStart = io + "<items>".length;
-    const ic = text.indexOf("</items>", innerStart); if(ic===-1) return null;
+    const ic = matchItemsClose(text, innerStart); if(ic===-1) return null;
     return { innerStart, innerEnd: ic };
   }
-  // Split the <items> inner region into top-level <Item> tokens. <Item> never
-  // nests another <Item>, so the next </Item> always closes the current one.
+  // Split an <items> inner region into TOP-LEVEL <Item> tokens. An <Item
+  // xsi:type="Chest"> (a chest carried as an item) contains nested <Item>s,
+  // so we depth-count opens/closes and only break tokens at depth 0 — the
+  // naive "next </Item>" approach truncates such items and corrupts the save.
   function tokenizeItems(region){
-    const toks = []; let i = 0;
-    while(true){
-      const open = region.indexOf("<Item", i); if(open===-1) break;
-      const tagEnd = region.indexOf(">", open); if(tagEnd===-1) break;
-      const selfClosed = region[tagEnd-1] === "/";
-      let end;
-      if(selfClosed){ end = tagEnd + 1; }
-      else { const c = region.indexOf("</Item>", tagEnd); if(c===-1) break; end = c + "</Item>".length; }
-      toks.push({ raw: region.slice(open,end), start: open, end });
-      i = end;
+    const toks = []; let i = 0; const n = region.length;
+    while(i < n){
+      const open = region.indexOf("<Item", i); if(open === -1) break;
+      if(!isTagAt(region, open, "<Item")){ i = open + 5; continue; }
+      let j = open, depth = 0, done = false;
+      while(j < n){
+        if(isTagAt(region, j, "<Item")){
+          const te = region.indexOf(">", j); if(te === -1){ j = n; break; }
+          if(region[te-1] === "/"){ if(depth === 0){ j = te + 1; done = true; break; } j = te + 1; }
+          else { depth++; j = te + 1; }
+        } else if(region.startsWith("</Item>", j)){
+          depth--; j += 7; if(depth === 0){ done = true; break; }
+        } else j++;
+      }
+      if(!done) break; // unbalanced tail — stop rather than emit a broken token
+      toks.push({ raw: region.slice(open, j), start: open, end: j });
+      i = j;
     }
     return toks;
   }
@@ -319,6 +379,113 @@
     }
     out += inv.region.slice(cursor);
     return text.slice(0, inv.bounds.innerStart) + out + text.slice(inv.bounds.innerEnd);
+  }
+
+  // ---------- chests model ----------
+  function findChests(text){
+    const chests = [];
+    let i = 0;
+    while(true){
+      const open = text.indexOf("<Chest", i); if(open===-1) break;
+      if(!isTagAt(text, open, "<Chest")){ i = open + 6; continue; } // skip <ChestFoo…>
+      const tagEnd = text.indexOf(">", open); if(tagEnd===-1) break;
+      const selfClosed = text[tagEnd-1] === "/";
+      let end;
+      if(selfClosed){ end = tagEnd + 1; }
+      else { const c = text.indexOf("</Chest>", tagEnd); if(c===-1) break; end = c + "</Chest>".length; }
+      const raw = text.slice(open, end);
+      // find <items> inside the chest raw (absolute positions)
+      const io = raw.indexOf("<items>");
+      if(io!==-1){
+        const itemsInnerStart = open + io + "<items>".length;
+        const ic = matchItemsClose(text, itemsInnerStart);
+        if(ic!==-1){
+          const itemsInnerEnd = ic;
+          const region = text.slice(itemsInnerStart, itemsInnerEnd);
+          const tokens = tokenizeItems(region);
+          const slots = tokens.map((t,ii)=>{
+            const isNil = /xsi:nil="true"/.test(t.raw) && !/xsi:type=/.test(t.raw);
+            if(isNil) return { i:ii, empty:true };
+            const isObject = /xsi:type="Object"/.test(t.raw);
+            const xtype = (t.raw.match(/xsi:type="([^"]+)"/)||[])[1] || "";
+            return { i:ii, empty:false, isObject, xtype,
+              name: matchTag(t.raw,"name")||"?", itemId: matchTag(t.raw,"itemId")||"",
+              stack: matchTag(t.raw,"stack")||"1", quality: matchTag(t.raw,"quality")||"0" };
+          });
+          chests.push({ start: open, end, raw, itemsInnerStart, itemsInnerEnd: itemsInnerEnd, region, tokens, slots });
+        } else {
+          chests.push({ start: open, end, raw, itemsInnerStart: -1, itemsInnerEnd: -1, region: "", tokens: [], slots: [] });
+        }
+      } else {
+        chests.push({ start: open, end, raw, itemsInnerStart: -1, itemsInnerEnd: -1, region: "", tokens: [], slots: [] });
+      }
+      i = end;
+    }
+    return chests;
+  }
+
+  function rebuildChestRegion(text, chest){
+    if(chest.itemsInnerStart===-1) return text;
+    let out = "", cursor = 0;
+    for(const t of chest.tokens){ out += chest.region.slice(cursor, t.start); out += (t.replacement !== undefined ? t.replacement : t.raw); cursor = t.end; }
+    out += chest.region.slice(cursor);
+    return text.slice(0, chest.itemsInnerStart) + out + text.slice(chest.itemsInnerEnd);
+  }
+
+  // Rebuild all chests from last to first to keep offsets valid
+  function rebuildChests(text, chests){
+    let out = text;
+    const list = (chests||[]).slice().sort((a,b)=>b.start-a.start);
+    for(const c of list){ out = rebuildChestRegion(out, c); }
+    return out;
+  }
+
+  function renderChests(){
+    const listEl = document.getElementById('chestList'); const slotsEl = document.getElementById('chestSlots');
+    listEl.innerHTML = ""; slotsEl.innerHTML = "";
+    if(!state.chests || !state.chests.length){ listEl.innerHTML = '<p style="opacity:.6">No chests found in this save.</p>'; document.getElementById('addChestItemBox').style.display='none'; return; }
+    state.chests.forEach((c,idx)=>{
+      const btn = document.createElement('button'); btn.className='btn small ghost'; btn.style.textAlign='left';
+      const cnt = c.slots ? c.slots.length : 0;
+      btn.textContent = 'Chest #'+(idx+1)+' — '+cnt+' slots'; btn.onclick = ()=>{ state.selectedChest = idx; renderChests(); };
+      if(state.selectedChest===idx) btn.style.outline='3px solid rgba(91,140,62,.25)';
+      listEl.append(btn);
+    });
+    // render selected chest slots
+    const sel = state.selectedChest || 0; const chest = state.chests[sel]; if(!chest) return;
+    document.getElementById('addChestItemBox').style.display = chest.slots.some(s=>s.empty) ? '' : 'none';
+    chest.slots.forEach(slot=>{
+      const row = document.createElement('div'); row.className='slot'+(slot.empty?' empty':'');
+      const num = document.createElement('div'); num.className='num'; num.textContent = (slot.i+1);
+      const nm = document.createElement('div'); nm.className='nm'; row.append(num,nm);
+      if(slot.empty){ nm.textContent='— empty —'; slotsEl.append(row); return; }
+      nm.textContent = slot.name;
+      if(slot.isObject){
+        const st = document.createElement('input'); st.className='st'; st.type='number'; st.min='1'; st.max='999'; st.value=slot.stack; st.onchange = ()=>applyChestStack(sel, slot.i, st.value);
+        const q = document.createElement('select'); q.title='Quality'; [['0','Normal'],['1','Silver'],['2','Gold'],['4','Iridium']].forEach(([v,l])=>{ const o=document.createElement('option'); o.value=v; o.textContent=l; if(v===slot.quality) o.selected=true; q.append(o); });
+        q.onchange = ()=>applyChestQuality(sel, slot.i, q.value);
+        row.append(st,q);
+      } else {
+        const tag = document.createElement('span'); tag.className='xtag'; tag.textContent='('+(slot.xtype||'special')+' — qty/quality locked)'; row.append(tag);
+      }
+      const x = document.createElement('button'); x.className='x'; x.textContent='Clear'; x.onclick = ()=>{ clearChestSlot(sel, slot.i); };
+      row.append(x); slotsEl.append(row);
+    });
+  }
+
+  function applyChestStack(chestIndex, slotIndex, val){ const s = Math.max(1, Math.trunc(Number(val)||1)); const t = state.chests[chestIndex].tokens[slotIndex]; t.replacement = (t.replacement||t.raw).replace(/(<stack>)\d+(<\/stack>)/,"$1"+s+"$2"); state.chests[chestIndex].slots[slotIndex].stack = String(s); }
+  function applyChestQuality(chestIndex, slotIndex, val){ const q = String(Math.trunc(Number(val)||0)); const t = state.chests[chestIndex].tokens[slotIndex]; t.replacement = (t.replacement||t.raw).replace(/(<quality>)\d+(<\/quality>)/,"$1"+q+"$2"); state.chests[chestIndex].slots[slotIndex].quality = q; }
+  function clearChestSlot(chestIndex, slotIndex){ state.chests[chestIndex].tokens[slotIndex].replacement = NIL_ITEM; state.chests[chestIndex].slots[slotIndex] = { i: slotIndex, empty:true }; renderChests(); }
+  function addChestItem(){
+    const name = document.getElementById('chestItemSearch').value.trim(); if(!name){ setStatus(els.saveStatus,'Type an item name first.','err'); return; }
+    const it = ITEM_BY_NAME.get(name.toLowerCase()); if(!it){ setStatus(els.saveStatus,'“'+name+'” isn\'t in the item list — pick one from the dropdown.','err'); return; }
+    const sel = state.selectedChest || 0; const chest = state.chests[sel]; if(!chest){ setStatus(els.saveStatus,'No chest selected.','err'); return; }
+    const free = chest.slots.find(s=>s.empty); if(!free){ setStatus(els.saveStatus,'Chest is full.','err'); return; }
+    const stack = Math.max(1, Math.trunc(Number(document.getElementById('addChestStack').value)||1));
+    const quality = String(Math.trunc(Number(document.getElementById('addChestQuality').value)||0));
+    chest.tokens[free.i].replacement = buildObjectItem(it.id, it.n, it.c, it.p, it.e, stack, quality);
+    chest.slots[free.i] = { i: free.i, empty:false, isObject:true, name: it.n, itemId: it.id, stack: String(stack), quality };
+    document.getElementById('chestItemSearch').value=''; renderChests(); setStatus(els.saveStatus,'Added '+stack+'× '+it.n+' to chest '+(sel+1)+'.','ok');
   }
 
   // ---------- friendships model ----------
@@ -372,16 +539,17 @@
       if(c) present.push({ field:f, value:(c.textContent||"").trim() });
     }
     const inv = readInventory(body);
+    const chests = findChests(body);
     const npcData = readFriendships(body);
 
-    state = { fileName, hadBOM, body, present, inv, npcData };
+    state = { fileName, hadBOM, body, present, inv, npcData, chests, selectedChest: 0 };
     renderAll();
-    const bits = [present.length+" stats", inv?inv.slots.length+" slots":"no inventory", npcData?npcData.length+" NPCs":"no friendships"];
+    const bits = [present.length+" stats", inv?inv.slots.length+" slots":"no inventory", chests && chests.length ? chests.length+" chests" : "no chests", npcData?npcData.length+" NPCs":"no friendships"];
     setStatus(els.loadStatus, "Loaded ✓  ("+bits.join(", ")+")", "ok");
   }
 
   // ---------- render ----------
-  function renderAll(){ renderStats(); renderInventory(); renderFriendships(); renderChip();
+  function renderAll(){ renderStats(); renderInventory(); renderChests(); renderFriendships(); renderChip();
     els.editorPanel.classList.remove("hidden"); els.editorPanel.scrollIntoView({behavior:"smooth",block:"start"});
     setStatus(els.saveStatus,"",null);
   }
@@ -477,11 +645,30 @@
   function maxAllHearts(){ if(!state.npcData) return; state.npcData.forEach(n=>{ const cap=maxPointsFor(n.status); n._input.value=cap; n._input.dispatchEvent(new Event("input")); }); }
 
   // ---------- save ----------
+  // Apply all byte-range replacements (inventory + chests) using original absolute offsets.
+  function applyReplacements(text){
+    const reps = [];
+    if(state.inv){
+      let out = "", cursor = 0;
+      for(const t of state.inv.tokens){ out += state.inv.region.slice(cursor, t.start); out += (t.replacement !== undefined ? t.replacement : t.raw); cursor = t.end; }
+      out += state.inv.region.slice(cursor);
+      reps.push({ start: state.inv.bounds.innerStart, end: state.inv.bounds.innerEnd, content: out });
+    }
+    if(state.chests){
+      for(const c of state.chests){ if(c.itemsInnerStart===-1) continue; let out="", cursor=0; for(const t of c.tokens){ out += c.region.slice(cursor, t.start); out += (t.replacement !== undefined ? t.replacement : t.raw); cursor = t.end; } out += c.region.slice(cursor); reps.push({ start: c.itemsInnerStart, end: c.itemsInnerEnd, content: out }); }
+    }
+    // sort descending and apply
+    reps.sort((a,b)=>b.start-a.start);
+    let cur = text;
+    for(const r of reps){ cur = cur.slice(0, r.start) + r.content + cur.slice(r.end); }
+    return cur;
+  }
+
   function download(){
     if(!state) return;
     let text = state.body;
-    // 1) inventory first (uses offsets valid on the original body)
-    if(state.inv) text = rebuildInventory(text, state.inv);
+    // 1) inventory & chests (apply replacements using original offsets)
+    text = applyReplacements(text);
     // 2) stats (position-independent regex)
     for(const input of els.fields.querySelectorAll("input")){
       const tag=input.dataset.tag, type=input.dataset.type; let val;
@@ -523,6 +710,8 @@
   els.drop.addEventListener("drop",e=>{ if(e.dataTransfer.files[0]) handleFile(e.dataTransfer.files[0]); });
   els.downloadBtn.onclick=download;
   els.addBtn.onclick=addItem;
+  // chest add button (separate element)
+  const addChestBtnEl = document.getElementById('addChestBtn'); if(addChestBtnEl) addChestBtnEl.onclick = addChestItem;
   els.maxHeartsBtn.onclick=maxAllHearts;
   document.querySelectorAll(".tab").forEach(tab=>tab.onclick=()=>{
     document.querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));
