@@ -225,7 +225,40 @@
     </details>
     <details>
       <summary>📱 iPhone / iPad</summary>
-      <div class="body"><p>iOS keeps the save locked inside the app. A one-click helper to pull it out and push it back is coming soon.</p></div>
+      <div class="body">
+        <p>iOS keeps your save locked inside the app, so you need a small free
+        helper on a <strong>computer</strong> to copy the save off your device and
+        back. It's a short one-time setup.</p>
+
+        <p><strong>You'll need:</strong> a Mac or Windows PC, a USB cable, and
+        <a href="https://www.python.org/downloads/" rel="noopener" target="_blank">Python</a>
+        installed.</p>
+
+        <ol>
+          <li>Plug your iPhone/iPad into the computer, unlock it, and tap
+          <em>Trust This Computer</em>. Turn on <em>Developer Mode</em>
+          (Settings → Privacy &amp; Security → Developer Mode) if asked.</li>
+          <li>Open <strong>Terminal</strong> (Mac) or <strong>Command Prompt</strong>
+          (Windows) and install the one dependency:
+          <pre>python3 -m pip install pymobiledevice3</pre></li>
+          <li><a href="svse-helper.py" download><strong>Download the helper script</strong> (svse-helper.py)</a>,
+          and in the terminal go to where it downloaded, e.g.:
+          <pre>cd ~/Downloads</pre></li>
+          <li>Pull your save off the device:
+          <pre>python3 svse-helper.py pull</pre>
+          This copies it to <code>~/Downloads/&lt;YourFarm&gt;/</code>.</li>
+          <li>Drag that pulled file into the editor at the top of this page, make
+          your edits, and download the edited file <strong>back into that same
+          folder</strong> (overwrite it).</li>
+          <li>Fully close Stardew on your device, then push the edited save back:
+          <pre>python3 svse-helper.py push --in ~/Downloads/&lt;YourFarm&gt;_&lt;id&gt;</pre></li>
+          <li>Open Stardew and load your farm — your edits are there.</li>
+        </ol>
+
+        <p style="font-size:13px;opacity:.8">The helper only uses the free,
+        open-source <code>pymobiledevice3</code> library and never touches the
+        game's own backup files. It's the same method the desktop app uses.</p>
+      </div>
     </details>
     <div class="warn">⚠️ <strong>Always back up your original save</strong> before overwriting. This editor changes only the values you edit and leaves the rest of the file byte-for-byte identical — but a backup means a typo can never cost you a game.</div>
   </section>
