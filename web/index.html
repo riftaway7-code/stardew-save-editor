@@ -226,38 +226,59 @@
     <details>
       <summary>📱 iPhone / iPad</summary>
       <div class="body">
-        <p>iOS keeps your save locked inside the app, so you need a small free
-        helper on a <strong>computer</strong> to copy the save off your device and
-        back. It's a short one-time setup.</p>
+        <div class="warn" style="margin-bottom:12px">Most players can skip this
+        section. Only iPhone/iPad saves need it — <strong>PC, Mac and console
+        players just use the upload box at the top of the page.</strong></div>
 
-        <p><strong>You'll need:</strong> a Mac or Windows PC, a USB cable, and
+        <p>iOS locks your save inside the app, so you need a <strong>computer</strong>
+        (Mac or Windows) and a USB cable to copy the save off your device and back.
+        Fair warning: this route is a bit technical and uses a terminal. It's a
+        one-time setup.</p>
+
+        <p><strong>1 · Get the pieces.</strong> Install
         <a href="https://www.python.org/downloads/" rel="noopener" target="_blank">Python</a>
-        installed.</p>
+        if you don't already have it, then
+        <a href="svse-helper.py" download><strong>download the helper script</strong>
+        (svse-helper.py)</a> — it lands in your Downloads folder.</p>
 
-        <ol>
-          <li>Plug your iPhone/iPad into the computer, unlock it, and tap
-          <em>Trust This Computer</em>. Turn on <em>Developer Mode</em>
-          (Settings → Privacy &amp; Security → Developer Mode) if asked.</li>
-          <li>Open <strong>Terminal</strong> (Mac) or <strong>Command Prompt</strong>
-          (Windows) and install the one dependency:
-          <pre>python3 -m pip install pymobiledevice3</pre></li>
-          <li><a href="svse-helper.py" download><strong>Download the helper script</strong> (svse-helper.py)</a>,
-          and in the terminal go to where it downloaded, e.g.:
-          <pre>cd ~/Downloads</pre></li>
-          <li>Pull your save off the device:
-          <pre>python3 svse-helper.py pull</pre>
-          This copies it to <code>~/Downloads/&lt;YourFarm&gt;/</code>.</li>
-          <li>Drag that pulled file into the editor at the top of this page, make
-          your edits, and download the edited file <strong>back into that same
-          folder</strong> (overwrite it).</li>
-          <li>Fully close Stardew on your device, then push the edited save back:
-          <pre>python3 svse-helper.py push --in ~/Downloads/&lt;YourFarm&gt;_&lt;id&gt;</pre></li>
-          <li>Open Stardew and load your farm — your edits are there.</li>
-        </ol>
+        <p><strong>2 · Connect your device.</strong> Plug it in, unlock it, tap
+        <em>Trust This Computer</em>, and turn on <em>Developer Mode</em>
+        (Settings → Privacy &amp; Security → Developer Mode).</p>
+
+        <p><strong>3 · Set up the tool.</strong> Open a terminal and run the block
+        for your system. This makes a small self-contained environment so nothing
+        else on your computer is touched (the install can take a minute or two):</p>
+
+        <p style="margin:0 0 4px"><em>Mac / Linux</em> (open <strong>Terminal</strong>):</p>
+        <pre>cd ~/Downloads
+python3 -m venv svse-tool
+svse-tool/bin/pip install pymobiledevice3</pre>
+
+        <p style="margin:0 0 4px"><em>Windows</em> (open <strong>Command Prompt</strong>):</p>
+        <pre>cd %USERPROFILE%\Downloads
+python -m venv svse-tool
+svse-tool\Scripts\pip install pymobiledevice3</pre>
+
+        <p><strong>4 · Pull your save</strong> off the device
+        (Mac/Linux shown; on Windows use <code>svse-tool\Scripts\python</code>):</p>
+        <pre>svse-tool/bin/python svse-helper.py pull</pre>
+        <p>It copies your save to
+        <code>~/Downloads/&lt;YourFarm&gt;_&lt;id&gt;/</code>.</p>
+
+        <p><strong>5 · Edit it.</strong> Drag that pulled file into the editor at
+        the top of this page, make your changes, and download the edited file
+        <strong>back into that same folder</strong> (overwrite it).</p>
+
+        <p><strong>6 · Push it back.</strong> Fully close Stardew on your device
+        first, then run it with your real farm folder name:</p>
+        <pre>svse-tool/bin/python svse-helper.py push --in ~/Downloads/YourFarm_12345</pre>
+
+        <p><strong>7 · Open Stardew</strong> and load your farm — your edits are there.</p>
 
         <p style="font-size:13px;opacity:.8">The helper only uses the free,
         open-source <code>pymobiledevice3</code> library and never touches the
-        game's own backup files. It's the same method the desktop app uses.</p>
+        game's own backup files. If the install fails on a brand-new Python
+        version, install Python 3.11–3.13 and try again.</p>
       </div>
     </details>
     <div class="warn">⚠️ <strong>Always back up your original save</strong> before overwriting. This editor changes only the values you edit and leaves the rest of the file byte-for-byte identical — but a backup means a typo can never cost you a game.</div>
