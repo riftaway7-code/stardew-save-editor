@@ -140,9 +140,12 @@ def cmd_pull(args) -> int:
     print("Done. Pulled to:")
     print(f"  {main_dest}  ({main_dest.stat().st_size:,} bytes)")
     print()
+    # Show the push command using the SAME interpreter the user just ran, so a
+    # venv user gets a command that actually works (not a bare "python3").
+    py = sys.executable if sys.prefix != sys.base_prefix else "python3"
     print("Next: open this file in the web editor, edit, and download the")
     print("edited file back into this folder (overwrite). Then run:")
-    print(f'  python3 svse-helper.py push --in "{out_dir}"')
+    print(f'  "{py}" svse-helper.py push --in "{out_dir}"')
     return 0
 
 
